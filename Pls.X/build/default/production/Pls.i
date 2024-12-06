@@ -4706,14 +4706,14 @@ unsigned char LCDStore5[17] = "                ";
 unsigned char LCDStore6[17] = "                ";
 unsigned char LCDStore7[17] = "                ";
 
-unsigned char snakeHeadXPos, snakeHeadYPos;
-unsigned char snakeTailX[32], snakeTailY[32];
-unsigned char snakeTailLen;
+unsigned short snakeHeadXPos, snakeHeadYPos;
+unsigned short snakeTailX[17], snakeTailY[8];
+unsigned short snakeTailLen;
 
-unsigned char fruitX;
-unsigned char fruitY;
+unsigned short fruitX;
+unsigned short fruitY;
 
-unsigned char score, key;
+unsigned short score, key;
 
 unsigned char speed = 0;
 
@@ -4722,86 +4722,117 @@ _Bool game = 0;
 _Bool mainMenu = 1;
 _Bool gameover = 0;
 
-void displaySpeed(){
-    switch(speed){
-        case 0:
-             LCD_GraphicsDisplayString(6,"Speed: 0");
-             break;
-        case 1:
-             LCD_GraphicsDisplayString(6,"Speed: 1");
-             break;
-        case 2:
-             LCD_GraphicsDisplayString(6,"Speed: 2");
-             break;
-        case 3:
-             LCD_GraphicsDisplayString(6,"Speed: 3");
-             break;
+
+
+unsigned short createRandomSeed() {
+    ADCON1 = 0x0E;
+    ADCON2 = 0xA9;
+    ADCON0 = 0x01;
+
+    ADCON0bits.GO = 1;
+    while (ADCON0bits.GO);
+
+    unsigned short adc_value = 0;
+    unsigned short timer_value = 0;
+
+    timer_value = TMR0L | (TMR0H << 8);
+
+
+
+    for (int i = 0; i < 4; i++) {
+        adc_value ^= ((ADRESH << 8) + ADRESL);
+        _delay((unsigned long)((10)*(8000000/4000.0)));
+    }
+
+    srand(adc_value ^ timer_value);
+
+
+    ADCON0 = 0x00;
+    ADCON1 = 0x0F;
+
+
+
+}
+
+void displaySpeed() {
+    switch (speed) {
         case 4:
-             LCD_GraphicsDisplayString(6,"Speed: 4");
-             break;
-        case 5:
-             LCD_GraphicsDisplayString(6,"Speed: 5");
-             break;
+            LCD_GraphicsDisplayString(6, "Speed: 1");
+            break;
+        case 3:
+            LCD_GraphicsDisplayString(6, "Speed: 2");
+            break;
+        case 2:
+            LCD_GraphicsDisplayString(6, "Speed: 3");
+            break;
+        case 1:
+            LCD_GraphicsDisplayString(6, "Speed: 4");
+            break;
+        case 0:
+            LCD_GraphicsDisplayString(6, "Speed: 5");
+            break;
     }
 }
 
-void drawGraphics(){
-    LCD_GraphicsDisplayString(0,LCDStore0);
-    LCD_GraphicsDisplayString(1,LCDStore1);
-    LCD_GraphicsDisplayString(2,LCDStore2);
-    LCD_GraphicsDisplayString(3,LCDStore3);
-    LCD_GraphicsDisplayString(4,LCDStore4);
-    LCD_GraphicsDisplayString(5,LCDStore5);
-    LCD_GraphicsDisplayString(6,LCDStore6);
-    LCD_GraphicsDisplayString(7,LCDStore7);
+void drawGraphics() {
+    LCD_GraphicsDisplayString(0, LCDStore0);
+    LCD_GraphicsDisplayString(1, LCDStore1);
+    LCD_GraphicsDisplayString(2, LCDStore2);
+    LCD_GraphicsDisplayString(3, LCDStore3);
+    LCD_GraphicsDisplayString(4, LCDStore4);
+    LCD_GraphicsDisplayString(5, LCDStore5);
+    LCD_GraphicsDisplayString(6, LCDStore6);
+    LCD_GraphicsDisplayString(7, LCDStore7);
 }
-unsigned char random(unsigned char lower_bound,unsigned char upper_bound){
+
+unsigned char random(unsigned char lower_bound, unsigned char upper_bound) {
     return rand() % (upper_bound - lower_bound + 1) + lower_bound;
 }
+
 void input() {
-    if(PORTAbits.RA2 == 1)
+    if (PORTAbits.RA3 == 1)
         key = 1;
-    else if(PORTAbits.RA3 == 1)
-        key = 2;
-    else if(PORTAbits.RA0 == 1)
-        key = 3;
-    else if(PORTAbits.RA1 == 1)
-        key = 4;
     else if (PORTAbits.RA4 == 1)
+        key = 2;
+    else if (PORTAbits.RA1 == 1)
+        key = 3;
+    else if (PORTAbits.RA2 == 1)
+        key = 4;
+    else if (PORTAbits.RA5 == 1)
         gameover = 1;
 }
-void placeChar(unsigned char x, unsigned char y, unsigned char c){
+
+void placeChar(unsigned char x, unsigned char y, unsigned char c) {
     switch (y) {
         case 0:
-              LCDStore0[x] = c;
-          break;
+            LCDStore0[x] = c;
+            break;
         case 1:
-              LCDStore1[x] = c;
-          break;
+            LCDStore1[x] = c;
+            break;
         case 2:
-              LCDStore2[x] = c;
-          break;
+            LCDStore2[x] = c;
+            break;
         case 3:
-              LCDStore3[x] = c;
-          break;
+            LCDStore3[x] = c;
+            break;
         case 4:
-              LCDStore4[x] = c;
-          break;
+            LCDStore4[x] = c;
+            break;
         case 5:
-              LCDStore5[x] = c;
-          break;
+            LCDStore5[x] = c;
+            break;
         case 6:
-              LCDStore6[x] = c;
-          break;
+            LCDStore6[x] = c;
+            break;
         case 7:
-              LCDStore7[x] = c;
-          break;
+            LCDStore7[x] = c;
+            break;
     }
 
 }
-void setup() {
 
-    TRISA = 0x0F;
+void setup() {
 
 
     gameover = 0;
@@ -4811,61 +4842,67 @@ void setup() {
     snakeHeadYPos = 4;
 
 
-    fruitX = random(0,15);
-    fruitY = random(0,7);
+    fruitX = random(0, 15);
+    fruitY = random(0, 7);
 
     while (fruitX == 0)
-        fruitX = random(0,15);
+        fruitX = random(0, 15);
 
     while (fruitY == 0)
-        fruitY = random(0,7);
+        fruitY = random(0, 7);
 
 
     score = 0;
     snakeTailLen = 0;
     key = 0;
 }
-void clearAllChar(){
-    for(unsigned char i = 0; i < 8; i++){
-         for(unsigned char j = 0; j < 16; j++){
-             placeChar(j,i,' ');
+
+void clearAllChar() {
+    for (unsigned char i = 0; i < 8; i++) {
+        for (unsigned char j = 0; j < 16; j++) {
+            placeChar(j, i, ' ');
         }
     }
 }
-void logic() {
 
+void logic() {
 
 
     unsigned char prevX = snakeTailX[0];
     unsigned char prevY = snakeTailY[0];
+
     unsigned char prev2X, prev2Y;
+
     snakeTailX[0] = snakeHeadXPos;
     snakeTailY[0] = snakeHeadYPos;
+
     for (unsigned char i = 1; i < snakeTailLen; i++) {
         prev2X = snakeTailX[i];
         prev2Y = snakeTailY[i];
+
         snakeTailX[i] = prevX;
         snakeTailY[i] = prevY;
+
         prevX = prev2X;
         prevY = prev2Y;
     }
 
 
     switch (key) {
-    case 1:
-        snakeHeadXPos--;
-        break;
-    case 2:
-        snakeHeadXPos++;
-        break;
-    case 3:
-        snakeHeadYPos--;
-        break;
-    case 4:
-        snakeHeadYPos++;
-        break;
-    default:
-        break;
+        case 1:
+            snakeHeadXPos--;
+            break;
+        case 2:
+            snakeHeadXPos++;
+            break;
+        case 3:
+            snakeHeadYPos--;
+            break;
+        case 4:
+            snakeHeadYPos++;
+            break;
+        default:
+            break;
     }
 
 
@@ -4873,74 +4910,77 @@ void logic() {
         gameover = 1;
 
 
-    for (unsigned char i = 0; i < snakeTailLen; i++) {
+    for (unsigned char i = 0; i < snakeTailLen; i++)
         if (snakeTailX[i] == snakeHeadXPos && snakeTailY[i] == snakeHeadYPos)
             gameover = 1;
-    }
 
 
 
     if (snakeHeadXPos == fruitX && snakeHeadYPos == fruitY) {
-        fruitX = random(0,15);
-        fruitY = random(0,7);
+
+
+        fruitX = random(0, 15);
+        fruitY = random(0, 7);
+
+
         while (fruitX == 0)
-            fruitX = random(0,15);
-
-
+            fruitX = random(0, 15);
         while (fruitY == 0)
-            fruitY = random(0,7);
-         score += 1;
-         snakeTailLen++;
+            fruitY = random(0, 7);
+
+        score += 1;
+        snakeTailLen++;
     }
 }
 
 void draw() {
     clearAllChar();
-    placeChar(snakeHeadXPos,snakeHeadYPos,'O');
-    placeChar(fruitX,fruitY,'a');
-
+    placeChar(snakeHeadXPos, snakeHeadYPos, 'O');
 
     for (unsigned char i = 0; i < 8; i++) {
         for (unsigned char j = 0; j <= 16; j++) {
-                unsigned char prTail = 0;
-                for (unsigned char k = 0; k < snakeTailLen; k++) {
-                    if (snakeTailX[k] == j && snakeTailY[k] == i) {
-                        placeChar(j,i,'#');
-                        prTail = 1;
-                    }
+            unsigned char prTail = 0;
+            for (unsigned char k = 0; k < snakeTailLen; k++) {
+                if (snakeTailX[k] == j && snakeTailY[k] == i) {
+                    placeChar(j, i, '#');
+                    prTail = 1;
                 }
+            }
         }
-
     }
+
+    placeChar(fruitX, fruitY, 'a');
 
     drawGraphics();
 }
 
 void main(void) {
-    ADCON1 = 0x0F;
     OSCCON = 0x70;
+    TRISA = 0xFF;
+
+    createRandomSeed();
 
     LCD_Init();
     LCD_EnableGraphics();
     LCD_ClearGraphics();
 
-    LCD_GraphicsDisplayString(0,"*****SNAKE******");
+    LCD_GraphicsDisplayString(0, "*****SNAKE******");
 
-    LCD_GraphicsDisplayString(2,"BY:  SEBASTIAN  ");
-    LCD_GraphicsDisplayString(3,"     ANU        ");
-    LCD_GraphicsDisplayString(5,"Start - Select  ");
+    LCD_GraphicsDisplayString(2, "BY:  SEBASTIAN  ");
+    LCD_GraphicsDisplayString(3, "     ANU        ");
+    LCD_GraphicsDisplayString(5, "Start - Select  ");
 
 showSpeed:
     displaySpeed();
 
-    while(!PORTAbits.RA5){
-        if(PORTAbits.RA0 && speed < 5){
+    while (!PORTAbits.RA6) {
+        if (PORTAbits.RA2 && speed < 5) {
             speed++;
-            while(PORTAbits.RA0);
+            while (PORTAbits.RA2);
             goto showSpeed;
-        } else if(PORTAbits.RA1 && speed > 0){
+        } else if (PORTAbits.RA1 && speed > 0) {
             speed--;
-            while(PORTAbits.RA1);
+            while (PORTAbits.RA1);
             goto showSpeed;
         }
     }
@@ -4951,43 +4991,44 @@ showSpeed:
 startGame:
     setup();
 
-    while(!gameover){
-           draw();
-           input();
-           logic();
+    while (!gameover) {
+        draw();
+        input();
+        logic();
 
-           switch (speed){
-               case 0:
+        switch (speed) {
+            case 0:
                 _delay((unsigned long)((0)*(8000000/4000.0)));
                 break;
-                case 1:
+            case 1:
                 _delay((unsigned long)((100)*(8000000/4000.0)));
                 break;
-                case 2:
+            case 2:
                 _delay((unsigned long)((200)*(8000000/4000.0)));
                 break;
-                case 3:
+            case 3:
                 _delay((unsigned long)((300)*(8000000/4000.0)));
                 break;
-                case 4:
+            case 4:
                 _delay((unsigned long)((400)*(8000000/4000.0)));
                 break;
-                case 5:
+            case 5:
                 _delay((unsigned long)((500)*(8000000/4000.0)));
                 break;
-           }
-     }
-    LCD_ClearGraphics();
-    LCD_GraphicsDisplayString(1,"***************");
-    LCD_GraphicsDisplayString(2,"    GAME OVER   ");
-    LCD_GraphicsDisplayString(3,"***************");
-    LCD_GraphicsDisplayString(5,"Retry - Select");
-    LCD_GraphicsDisplayString(6,"Menu - Exit");
+        }
+    }
 
-    while(!PORTAbits.RA4){
-       if(PORTAbits.RA5){
-           goto startGame;
-       }
+    LCD_ClearGraphics();
+    LCD_GraphicsDisplayString(1, "****************");
+    LCD_GraphicsDisplayString(2, "    GAME OVER   ");
+    LCD_GraphicsDisplayString(3, "****************");
+    LCD_GraphicsDisplayString(5, "Retry - Select");
+    LCD_GraphicsDisplayString(6, "Menu - Exit");
+
+    while (!PORTAbits.RA5) {
+        if (PORTAbits.RA6) {
+            goto startGame;
+        }
     }
 
     return;

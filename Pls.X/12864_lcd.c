@@ -1,8 +1,10 @@
+// LIBRAY FROM: https://www.codeproject.com/Articles/5360360/Experimenting-with-ST7920-128-64-Graphical-LCD-on
+
+
 #include "delay.h"			
 #include "12864_lcd.h"
 #include "font.h"
 #include "string.h"
-
 #include <xc.h>
 
 void LCD_Init(void) 

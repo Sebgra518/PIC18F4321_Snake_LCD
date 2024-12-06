@@ -1,4 +1,71 @@
 Version 4.0 HI-TECH Software Intermediate Code
+"4716 E:/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4321.h
+[; ;E:/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4321.h: 4716: extern volatile unsigned char ADCON1 __attribute__((address(0xFC1)));
+[v _ADCON1 `Vuc ~T0 @X0 0 e@4033 ]
+"4645
+[; ;E:/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4321.h: 4645: extern volatile unsigned char ADCON2 __attribute__((address(0xFC0)));
+[v _ADCON2 `Vuc ~T0 @X0 0 e@4032 ]
+"4801
+[; ;E:/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4321.h: 4801: extern volatile unsigned char ADCON0 __attribute__((address(0xFC2)));
+[v _ADCON0 `Vuc ~T0 @X0 0 e@4034 ]
+"4807
+[; ;E:/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4321.h: 4807:     struct {
+[s S188 :1 `uc 1 :1 `uc 1 ]
+[n S188 . . GO_NOT_DONE ]
+"4811
+[; ;E:/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4321.h: 4811:     struct {
+[s S189 :1 `uc 1 :1 `uc 1 :4 `uc 1 ]
+[n S189 . ADON GO_nDONE CHS ]
+"4816
+[; ;E:/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4321.h: 4816:     struct {
+[s S190 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S190 . . GO CHS0 CHS1 CHS2 CHS3 ]
+"4824
+[; ;E:/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4321.h: 4824:     struct {
+[s S191 :1 `uc 1 :1 `uc 1 ]
+[n S191 . . DONE ]
+"4828
+[; ;E:/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4321.h: 4828:     struct {
+[s S192 :1 `uc 1 :1 `uc 1 ]
+[n S192 . . NOT_DONE ]
+"4832
+[; ;E:/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4321.h: 4832:     struct {
+[s S193 :1 `uc 1 :1 `uc 1 ]
+[n S193 . . nDONE ]
+"4836
+[; ;E:/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4321.h: 4836:     struct {
+[s S194 :1 `uc 1 :1 `uc 1 ]
+[n S194 . . GO_DONE ]
+"4840
+[; ;E:/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4321.h: 4840:     struct {
+[s S195 :1 `uc 1 :1 `uc 1 ]
+[n S195 . . GODONE ]
+"4806
+[; ;E:/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4321.h: 4806: typedef union {
+[u S187 `S188 1 `S189 1 `S190 1 `S191 1 `S192 1 `S193 1 `S194 1 `S195 1 ]
+[n S187 . . . . . . . . . ]
+"4845
+[; ;E:/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4321.h: 4845: extern volatile ADCON0bits_t ADCON0bits __attribute__((address(0xFC2)));
+[v _ADCON0bits `VS187 ~T0 @X0 0 e@4034 ]
+"6267
+[; ;E:/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4321.h: 6267: extern volatile unsigned char TMR0L __attribute__((address(0xFD6)));
+[v _TMR0L `Vuc ~T0 @X0 0 e@4054 ]
+"6274
+[; ;E:/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4321.h: 6274: extern volatile unsigned char TMR0H __attribute__((address(0xFD7)));
+[v _TMR0H `Vuc ~T0 @X0 0 e@4055 ]
+"4934
+[; ;E:/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4321.h: 4934: extern volatile unsigned char ADRESH __attribute__((address(0xFC4)));
+[v _ADRESH `Vuc ~T0 @X0 0 e@4036 ]
+"4927
+[; ;E:/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4321.h: 4927: extern volatile unsigned char ADRESL __attribute__((address(0xFC3)));
+[v _ADRESL `Vuc ~T0 @X0 0 e@4035 ]
+[v F221 `(v ~T0 @X0 1 tf1`ul ]
+"20 E:\Microchip\xc8\v2.50\pic\include\builtins.h
+[v __delay `JF221 ~T0 @X0 0 e ]
+[p i __delay ]
+"56 E:\Microchip\xc8\v2.50\pic\include\c99\stdlib.h
+[; ;E:\Microchip\xc8\v2.50\pic\include\c99\stdlib.h: 56: void srand (unsigned);
+[v _srand `(v ~T0 @X0 0 ef1`ui ]
 "17 ./12864_lcd.h
 [; ;./12864_lcd.h: 17: void LCD_GraphicsDisplayString(unsigned char line, char* str);
 [v _LCD_GraphicsDisplayString `(v ~T0 @X0 0 ef2`uc`*uc ]
@@ -40,16 +107,13 @@ Version 4.0 HI-TECH Software Intermediate Code
 "114
 [; ;E:/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4321.h: 114: extern volatile PORTAbits_t PORTAbits __attribute__((address(0xF80)));
 [v _PORTAbits `VS6 ~T0 @X0 0 e@3968 ]
-"1488
-[; ;E:/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4321.h: 1488: extern volatile unsigned char TRISA __attribute__((address(0xF92)));
-[v _TRISA `Vuc ~T0 @X0 0 e@3986 ]
 [p mainexit ]
-"4716
-[; ;E:/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4321.h: 4716: extern volatile unsigned char ADCON1 __attribute__((address(0xFC1)));
-[v _ADCON1 `Vuc ~T0 @X0 0 e@4033 ]
 "6100
 [; ;E:/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4321.h: 6100: extern volatile unsigned char OSCCON __attribute__((address(0xFD3)));
 [v _OSCCON `Vuc ~T0 @X0 0 e@4051 ]
+"1488
+[; ;E:/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4321.h: 1488: extern volatile unsigned char TRISA __attribute__((address(0xF92)));
+[v _TRISA `Vuc ~T0 @X0 0 e@3986 ]
 "15 ./12864_lcd.h
 [; ;./12864_lcd.h: 15: void LCD_Init(void);
 [v _LCD_Init `(v ~T0 @X0 0 ef ]
@@ -59,10 +123,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 "21
 [; ;./12864_lcd.h: 21: void LCD_ClearGraphics(void);
 [v _LCD_ClearGraphics `(v ~T0 @X0 0 ef ]
-[v F221 `(v ~T0 @X0 1 tf1`ul ]
-"20 E:\Microchip\xc8\v2.50\pic\include\builtins.h
-[v __delay `JF221 ~T0 @X0 0 e ]
-[p i __delay ]
 "54 E:/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4321.h
 [; ;E:/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4321.h: 54: __asm("PORTA equ 0F80h");
 [; <" PORTA equ 0F80h ;# ">
@@ -726,26 +786,26 @@ Version 4.0 HI-TECH Software Intermediate Code
 ..
 ]
 "24
-[; ;Pls.c: 24: unsigned char snakeHeadXPos, snakeHeadYPos;
-[v _snakeHeadXPos `uc ~T0 @X0 1 e ]
-[v _snakeHeadYPos `uc ~T0 @X0 1 e ]
+[; ;Pls.c: 24: unsigned short snakeHeadXPos, snakeHeadYPos;
+[v _snakeHeadXPos `us ~T0 @X0 1 e ]
+[v _snakeHeadYPos `us ~T0 @X0 1 e ]
 "25
-[; ;Pls.c: 25: unsigned char snakeTailX[32], snakeTailY[32];
-[v _snakeTailX `uc ~T0 @X0 -> 32 `i e ]
-[v _snakeTailY `uc ~T0 @X0 -> 32 `i e ]
+[; ;Pls.c: 25: unsigned short snakeTailX[17], snakeTailY[8];
+[v _snakeTailX `us ~T0 @X0 -> 17 `i e ]
+[v _snakeTailY `us ~T0 @X0 -> 8 `i e ]
 "26
-[; ;Pls.c: 26: unsigned char snakeTailLen;
-[v _snakeTailLen `uc ~T0 @X0 1 e ]
+[; ;Pls.c: 26: unsigned short snakeTailLen;
+[v _snakeTailLen `us ~T0 @X0 1 e ]
 "28
-[; ;Pls.c: 28: unsigned char fruitX;
-[v _fruitX `uc ~T0 @X0 1 e ]
+[; ;Pls.c: 28: unsigned short fruitX;
+[v _fruitX `us ~T0 @X0 1 e ]
 "29
-[; ;Pls.c: 29: unsigned char fruitY;
-[v _fruitY `uc ~T0 @X0 1 e ]
+[; ;Pls.c: 29: unsigned short fruitY;
+[v _fruitY `us ~T0 @X0 1 e ]
 "31
-[; ;Pls.c: 31: unsigned char score, key;
-[v _score `uc ~T0 @X0 1 e ]
-[v _key `uc ~T0 @X0 1 e ]
+[; ;Pls.c: 31: unsigned short score, key;
+[v _score `us ~T0 @X0 1 e ]
+[v _key `us ~T0 @X0 1 e ]
 "33
 [; ;Pls.c: 33: unsigned char speed = 0;
 [v _speed `uc ~T0 @X0 1 e ]
@@ -776,192 +836,253 @@ Version 4.0 HI-TECH Software Intermediate Code
 [i _gameover
 -> -> 0 `i `a
 ]
-"40
-[; ;Pls.c: 40: void displaySpeed(){
+"42
+[; ;Pls.c: 42: unsigned short createRandomSeed() {
+[v _createRandomSeed `(us ~T0 @X0 1 ef ]
+{
+[e :U _createRandomSeed ]
+[f ]
+"43
+[; ;Pls.c: 43:     ADCON1 = 0x0E;
+[e = _ADCON1 -> -> 14 `i `uc ]
+"44
+[; ;Pls.c: 44:     ADCON2 = 0xA9;
+[e = _ADCON2 -> -> 169 `i `uc ]
+"45
+[; ;Pls.c: 45:     ADCON0 = 0x01;
+[e = _ADCON0 -> -> 1 `i `uc ]
+"47
+[; ;Pls.c: 47:     ADCON0bits.GO = 1;
+[e = . . _ADCON0bits 2 1 -> -> 1 `i `uc ]
+"48
+[; ;Pls.c: 48:     while (ADCON0bits.GO);
+[e $U 281  ]
+[e :U 282 ]
+[e :U 281 ]
+[e $ != -> . . _ADCON0bits 2 1 `i -> 0 `i 282  ]
+[e :U 283 ]
+"50
+[; ;Pls.c: 50:     unsigned short adc_value = 0;
+[v _adc_value `us ~T0 @X0 1 a ]
+[e = _adc_value -> -> 0 `i `us ]
+"51
+[; ;Pls.c: 51:     unsigned short timer_value = 0;
+[v _timer_value `us ~T0 @X0 1 a ]
+[e = _timer_value -> -> 0 `i `us ]
+"53
+[; ;Pls.c: 53:     timer_value = TMR0L | (TMR0H << 8);
+[e = _timer_value -> | -> _TMR0L `i << -> _TMR0H `i -> 8 `i `us ]
+"57
+[; ;Pls.c: 57:     for (int i = 0; i < 4; i++) {
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+[e $ < _i -> 4 `i 284  ]
+[e $U 285  ]
+[e :U 284 ]
+{
+"58
+[; ;Pls.c: 58:         adc_value ^= ((ADRESH << 8) + ADRESL);
+[e =^ _adc_value -> + << -> _ADRESH `i -> 8 `i -> _ADRESL `i `us ]
+"59
+[; ;Pls.c: 59:         _delay((unsigned long)((10)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"60
+[; ;Pls.c: 60:     }
+}
+[e ++ _i -> 1 `i ]
+[e $ < _i -> 4 `i 284  ]
+[e :U 285 ]
+}
+"62
+[; ;Pls.c: 62:     srand(adc_value ^ timer_value);
+[e ( _srand (1 ^ -> _adc_value `ui -> _timer_value `ui ]
+"65
+[; ;Pls.c: 65:     ADCON0 = 0x00;
+[e = _ADCON0 -> -> 0 `i `uc ]
+"66
+[; ;Pls.c: 66:     ADCON1 = 0x0F;
+[e = _ADCON1 -> -> 15 `i `uc ]
+"70
+[; ;Pls.c: 70: }
+[e :UE 280 ]
+}
+"72
+[; ;Pls.c: 72: void displaySpeed() {
 [v _displaySpeed `(v ~T0 @X0 1 ef ]
 {
 [e :U _displaySpeed ]
 [f ]
-"41
-[; ;Pls.c: 41:     switch(speed){
-[e $U 282  ]
+"73
+[; ;Pls.c: 73:     switch (speed) {
+[e $U 289  ]
 {
-"42
-[; ;Pls.c: 42:         case 0:
-[e :U 283 ]
-"43
-[; ;Pls.c: 43:              LCD_GraphicsDisplayString(6,"Speed: 0");
+"74
+[; ;Pls.c: 74:         case 4:
+[e :U 290 ]
+"75
+[; ;Pls.c: 75:             LCD_GraphicsDisplayString(6, "Speed: 1");
 [e ( _LCD_GraphicsDisplayString (2 , -> -> 6 `i `uc :s 1C ]
-"44
-[; ;Pls.c: 44:              break;
-[e $U 281  ]
-"45
-[; ;Pls.c: 45:         case 1:
-[e :U 284 ]
-"46
-[; ;Pls.c: 46:              LCD_GraphicsDisplayString(6,"Speed: 1");
+"76
+[; ;Pls.c: 76:             break;
+[e $U 288  ]
+"77
+[; ;Pls.c: 77:         case 3:
+[e :U 291 ]
+"78
+[; ;Pls.c: 78:             LCD_GraphicsDisplayString(6, "Speed: 2");
 [e ( _LCD_GraphicsDisplayString (2 , -> -> 6 `i `uc :s 2C ]
-"47
-[; ;Pls.c: 47:              break;
-[e $U 281  ]
-"48
-[; ;Pls.c: 48:         case 2:
-[e :U 285 ]
-"49
-[; ;Pls.c: 49:              LCD_GraphicsDisplayString(6,"Speed: 2");
+"79
+[; ;Pls.c: 79:             break;
+[e $U 288  ]
+"80
+[; ;Pls.c: 80:         case 2:
+[e :U 292 ]
+"81
+[; ;Pls.c: 81:             LCD_GraphicsDisplayString(6, "Speed: 3");
 [e ( _LCD_GraphicsDisplayString (2 , -> -> 6 `i `uc :s 3C ]
-"50
-[; ;Pls.c: 50:              break;
-[e $U 281  ]
-"51
-[; ;Pls.c: 51:         case 3:
-[e :U 286 ]
-"52
-[; ;Pls.c: 52:              LCD_GraphicsDisplayString(6,"Speed: 3");
+"82
+[; ;Pls.c: 82:             break;
+[e $U 288  ]
+"83
+[; ;Pls.c: 83:         case 1:
+[e :U 293 ]
+"84
+[; ;Pls.c: 84:             LCD_GraphicsDisplayString(6, "Speed: 4");
 [e ( _LCD_GraphicsDisplayString (2 , -> -> 6 `i `uc :s 4C ]
-"53
-[; ;Pls.c: 53:              break;
-[e $U 281  ]
-"54
-[; ;Pls.c: 54:         case 4:
-[e :U 287 ]
-"55
-[; ;Pls.c: 55:              LCD_GraphicsDisplayString(6,"Speed: 4");
+"85
+[; ;Pls.c: 85:             break;
+[e $U 288  ]
+"86
+[; ;Pls.c: 86:         case 0:
+[e :U 294 ]
+"87
+[; ;Pls.c: 87:             LCD_GraphicsDisplayString(6, "Speed: 5");
 [e ( _LCD_GraphicsDisplayString (2 , -> -> 6 `i `uc :s 5C ]
-"56
-[; ;Pls.c: 56:              break;
-[e $U 281  ]
-"57
-[; ;Pls.c: 57:         case 5:
+"88
+[; ;Pls.c: 88:             break;
+[e $U 288  ]
+"89
+[; ;Pls.c: 89:     }
+}
+[e $U 288  ]
+[e :U 289 ]
+[e [\ _speed , $ -> 4 `i 290
+ , $ -> 3 `i 291
+ , $ -> 2 `i 292
+ , $ -> 1 `i 293
+ , $ -> 0 `i 294
+ 288 ]
 [e :U 288 ]
-"58
-[; ;Pls.c: 58:              LCD_GraphicsDisplayString(6,"Speed: 5");
-[e ( _LCD_GraphicsDisplayString (2 , -> -> 6 `i `uc :s 6C ]
-"59
-[; ;Pls.c: 59:              break;
-[e $U 281  ]
-"60
-[; ;Pls.c: 60:     }
+"90
+[; ;Pls.c: 90: }
+[e :UE 287 ]
 }
-[e $U 281  ]
-[e :U 282 ]
-[e [\ _speed , $ -> 0 `i 283
- , $ -> 1 `i 284
- , $ -> 2 `i 285
- , $ -> 3 `i 286
- , $ -> 4 `i 287
- , $ -> 5 `i 288
- 281 ]
-[e :U 281 ]
-"61
-[; ;Pls.c: 61: }
-[e :UE 280 ]
-}
-"63
-[; ;Pls.c: 63: void drawGraphics(){
+"92
+[; ;Pls.c: 92: void drawGraphics() {
 [v _drawGraphics `(v ~T0 @X0 1 ef ]
 {
 [e :U _drawGraphics ]
 [f ]
-"64
-[; ;Pls.c: 64:     LCD_GraphicsDisplayString(0,LCDStore0);
+"93
+[; ;Pls.c: 93:     LCD_GraphicsDisplayString(0, LCDStore0);
 [e ( _LCD_GraphicsDisplayString (2 , -> -> 0 `i `uc -> &U _LCDStore0 `*uc ]
-"65
-[; ;Pls.c: 65:     LCD_GraphicsDisplayString(1,LCDStore1);
+"94
+[; ;Pls.c: 94:     LCD_GraphicsDisplayString(1, LCDStore1);
 [e ( _LCD_GraphicsDisplayString (2 , -> -> 1 `i `uc -> &U _LCDStore1 `*uc ]
-"66
-[; ;Pls.c: 66:     LCD_GraphicsDisplayString(2,LCDStore2);
+"95
+[; ;Pls.c: 95:     LCD_GraphicsDisplayString(2, LCDStore2);
 [e ( _LCD_GraphicsDisplayString (2 , -> -> 2 `i `uc -> &U _LCDStore2 `*uc ]
-"67
-[; ;Pls.c: 67:     LCD_GraphicsDisplayString(3,LCDStore3);
+"96
+[; ;Pls.c: 96:     LCD_GraphicsDisplayString(3, LCDStore3);
 [e ( _LCD_GraphicsDisplayString (2 , -> -> 3 `i `uc -> &U _LCDStore3 `*uc ]
-"68
-[; ;Pls.c: 68:     LCD_GraphicsDisplayString(4,LCDStore4);
+"97
+[; ;Pls.c: 97:     LCD_GraphicsDisplayString(4, LCDStore4);
 [e ( _LCD_GraphicsDisplayString (2 , -> -> 4 `i `uc -> &U _LCDStore4 `*uc ]
-"69
-[; ;Pls.c: 69:     LCD_GraphicsDisplayString(5,LCDStore5);
+"98
+[; ;Pls.c: 98:     LCD_GraphicsDisplayString(5, LCDStore5);
 [e ( _LCD_GraphicsDisplayString (2 , -> -> 5 `i `uc -> &U _LCDStore5 `*uc ]
-"70
-[; ;Pls.c: 70:     LCD_GraphicsDisplayString(6,LCDStore6);
+"99
+[; ;Pls.c: 99:     LCD_GraphicsDisplayString(6, LCDStore6);
 [e ( _LCD_GraphicsDisplayString (2 , -> -> 6 `i `uc -> &U _LCDStore6 `*uc ]
-"71
-[; ;Pls.c: 71:     LCD_GraphicsDisplayString(7,LCDStore7);
+"100
+[; ;Pls.c: 100:     LCD_GraphicsDisplayString(7, LCDStore7);
 [e ( _LCD_GraphicsDisplayString (2 , -> -> 7 `i `uc -> &U _LCDStore7 `*uc ]
-"72
-[; ;Pls.c: 72: }
-[e :UE 289 ]
+"101
+[; ;Pls.c: 101: }
+[e :UE 295 ]
 }
-"73
-[; ;Pls.c: 73: unsigned char random(unsigned char lower_bound,unsigned char upper_bound){
+"103
+[; ;Pls.c: 103: unsigned char random(unsigned char lower_bound, unsigned char upper_bound) {
 [v _random `(uc ~T0 @X0 1 ef2`uc`uc ]
 {
 [e :U _random ]
 [v _lower_bound `uc ~T0 @X0 1 r1 ]
 [v _upper_bound `uc ~T0 @X0 1 r2 ]
 [f ]
-"74
-[; ;Pls.c: 74:     return rand() % (upper_bound - lower_bound + 1) + lower_bound;
+"104
+[; ;Pls.c: 104:     return rand() % (upper_bound - lower_bound + 1) + lower_bound;
 [e ) -> + % ( _rand ..  + - -> _upper_bound `i -> _lower_bound `i -> 1 `i -> _lower_bound `i `uc ]
-[e $UE 290  ]
-"75
-[; ;Pls.c: 75: }
-[e :UE 290 ]
+[e $UE 296  ]
+"105
+[; ;Pls.c: 105: }
+[e :UE 296 ]
 }
-"76
-[; ;Pls.c: 76: void input() {
+"107
+[; ;Pls.c: 107: void input() {
 [v _input `(v ~T0 @X0 1 ef ]
 {
 [e :U _input ]
 [f ]
-"77
-[; ;Pls.c: 77:     if(PORTAbits.RA2 == 1)
-[e $ ! == -> . . _PORTAbits 0 2 `i -> 1 `i 292  ]
-"78
-[; ;Pls.c: 78:         key = 1;
-[e = _key -> -> 1 `i `uc ]
-[e $U 293  ]
-"79
-[; ;Pls.c: 79:     else if(PORTAbits.RA3 == 1)
-[e :U 292 ]
-[e $ ! == -> . . _PORTAbits 0 3 `i -> 1 `i 294  ]
-"80
-[; ;Pls.c: 80:         key = 2;
-[e = _key -> -> 2 `i `uc ]
-[e $U 295  ]
-"81
-[; ;Pls.c: 81:     else if(PORTAbits.RA0 == 1)
-[e :U 294 ]
-[e $ ! == -> . . _PORTAbits 0 0 `i -> 1 `i 296  ]
-"82
-[; ;Pls.c: 82:         key = 3;
-[e = _key -> -> 3 `i `uc ]
-[e $U 297  ]
-"83
-[; ;Pls.c: 83:     else if(PORTAbits.RA1 == 1)
-[e :U 296 ]
-[e $ ! == -> . . _PORTAbits 0 1 `i -> 1 `i 298  ]
-"84
-[; ;Pls.c: 84:         key = 4;
-[e = _key -> -> 4 `i `uc ]
+"108
+[; ;Pls.c: 108:     if (PORTAbits.RA3 == 1)
+[e $ ! == -> . . _PORTAbits 0 3 `i -> 1 `i 298  ]
+"109
+[; ;Pls.c: 109:         key = 1;
+[e = _key -> -> 1 `i `us ]
 [e $U 299  ]
-"85
-[; ;Pls.c: 85:     else if (PORTAbits.RA4 == 1)
+"110
+[; ;Pls.c: 110:     else if (PORTAbits.RA4 == 1)
 [e :U 298 ]
 [e $ ! == -> . . _PORTAbits 0 4 `i -> 1 `i 300  ]
-"86
-[; ;Pls.c: 86:         gameover = 1;
-[e = _gameover -> -> 1 `i `a ]
+"111
+[; ;Pls.c: 111:         key = 2;
+[e = _key -> -> 2 `i `us ]
+[e $U 301  ]
+"112
+[; ;Pls.c: 112:     else if (PORTAbits.RA1 == 1)
 [e :U 300 ]
+[e $ ! == -> . . _PORTAbits 0 1 `i -> 1 `i 302  ]
+"113
+[; ;Pls.c: 113:         key = 3;
+[e = _key -> -> 3 `i `us ]
+[e $U 303  ]
+"114
+[; ;Pls.c: 114:     else if (PORTAbits.RA2 == 1)
+[e :U 302 ]
+[e $ ! == -> . . _PORTAbits 0 2 `i -> 1 `i 304  ]
+"115
+[; ;Pls.c: 115:         key = 4;
+[e = _key -> -> 4 `i `us ]
+[e $U 305  ]
+"116
+[; ;Pls.c: 116:     else if (PORTAbits.RA5 == 1)
+[e :U 304 ]
+[e $ ! == -> . . _PORTAbits 0 5 `i -> 1 `i 306  ]
+"117
+[; ;Pls.c: 117:         gameover = 1;
+[e = _gameover -> -> 1 `i `a ]
+[e :U 306 ]
+[e :U 305 ]
+[e :U 303 ]
+[e :U 301 ]
 [e :U 299 ]
-[e :U 297 ]
-[e :U 295 ]
-[e :U 293 ]
-"87
-[; ;Pls.c: 87: }
-[e :UE 291 ]
+"118
+[; ;Pls.c: 118: }
+[e :UE 297 ]
 }
-"88
-[; ;Pls.c: 88: void placeChar(unsigned char x, unsigned char y, unsigned char c){
+"120
+[; ;Pls.c: 120: void placeChar(unsigned char x, unsigned char y, unsigned char c) {
 [v _placeChar `(v ~T0 @X0 1 ef3`uc`uc`uc ]
 {
 [e :U _placeChar ]
@@ -969,743 +1090,738 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _y `uc ~T0 @X0 1 r2 ]
 [v _c `uc ~T0 @X0 1 r3 ]
 [f ]
-"89
-[; ;Pls.c: 89:     switch (y) {
-[e $U 303  ]
+"121
+[; ;Pls.c: 121:     switch (y) {
+[e $U 309  ]
 {
-"90
-[; ;Pls.c: 90:         case 0:
-[e :U 304 ]
-"91
-[; ;Pls.c: 91:               LCDStore0[x] = c;
-[e = *U + &U _LCDStore0 * -> _x `ux -> -> # *U &U _LCDStore0 `ui `ux _c ]
-"92
-[; ;Pls.c: 92:           break;
-[e $U 302  ]
-"93
-[; ;Pls.c: 93:         case 1:
-[e :U 305 ]
-"94
-[; ;Pls.c: 94:               LCDStore1[x] = c;
-[e = *U + &U _LCDStore1 * -> _x `ux -> -> # *U &U _LCDStore1 `ui `ux _c ]
-"95
-[; ;Pls.c: 95:           break;
-[e $U 302  ]
-"96
-[; ;Pls.c: 96:         case 2:
-[e :U 306 ]
-"97
-[; ;Pls.c: 97:               LCDStore2[x] = c;
-[e = *U + &U _LCDStore2 * -> _x `ux -> -> # *U &U _LCDStore2 `ui `ux _c ]
-"98
-[; ;Pls.c: 98:           break;
-[e $U 302  ]
-"99
-[; ;Pls.c: 99:         case 3:
-[e :U 307 ]
-"100
-[; ;Pls.c: 100:               LCDStore3[x] = c;
-[e = *U + &U _LCDStore3 * -> _x `ux -> -> # *U &U _LCDStore3 `ui `ux _c ]
-"101
-[; ;Pls.c: 101:           break;
-[e $U 302  ]
-"102
-[; ;Pls.c: 102:         case 4:
-[e :U 308 ]
-"103
-[; ;Pls.c: 103:               LCDStore4[x] = c;
-[e = *U + &U _LCDStore4 * -> _x `ux -> -> # *U &U _LCDStore4 `ui `ux _c ]
-"104
-[; ;Pls.c: 104:           break;
-[e $U 302  ]
-"105
-[; ;Pls.c: 105:         case 5:
-[e :U 309 ]
-"106
-[; ;Pls.c: 106:               LCDStore5[x] = c;
-[e = *U + &U _LCDStore5 * -> _x `ux -> -> # *U &U _LCDStore5 `ui `ux _c ]
-"107
-[; ;Pls.c: 107:           break;
-[e $U 302  ]
-"108
-[; ;Pls.c: 108:         case 6:
+"122
+[; ;Pls.c: 122:         case 0:
 [e :U 310 ]
-"109
-[; ;Pls.c: 109:               LCDStore6[x] = c;
-[e = *U + &U _LCDStore6 * -> _x `ux -> -> # *U &U _LCDStore6 `ui `ux _c ]
-"110
-[; ;Pls.c: 110:           break;
-[e $U 302  ]
-"111
-[; ;Pls.c: 111:         case 7:
+"123
+[; ;Pls.c: 123:             LCDStore0[x] = c;
+[e = *U + &U _LCDStore0 * -> _x `ux -> -> # *U &U _LCDStore0 `ui `ux _c ]
+"124
+[; ;Pls.c: 124:             break;
+[e $U 308  ]
+"125
+[; ;Pls.c: 125:         case 1:
 [e :U 311 ]
-"112
-[; ;Pls.c: 112:               LCDStore7[x] = c;
+"126
+[; ;Pls.c: 126:             LCDStore1[x] = c;
+[e = *U + &U _LCDStore1 * -> _x `ux -> -> # *U &U _LCDStore1 `ui `ux _c ]
+"127
+[; ;Pls.c: 127:             break;
+[e $U 308  ]
+"128
+[; ;Pls.c: 128:         case 2:
+[e :U 312 ]
+"129
+[; ;Pls.c: 129:             LCDStore2[x] = c;
+[e = *U + &U _LCDStore2 * -> _x `ux -> -> # *U &U _LCDStore2 `ui `ux _c ]
+"130
+[; ;Pls.c: 130:             break;
+[e $U 308  ]
+"131
+[; ;Pls.c: 131:         case 3:
+[e :U 313 ]
+"132
+[; ;Pls.c: 132:             LCDStore3[x] = c;
+[e = *U + &U _LCDStore3 * -> _x `ux -> -> # *U &U _LCDStore3 `ui `ux _c ]
+"133
+[; ;Pls.c: 133:             break;
+[e $U 308  ]
+"134
+[; ;Pls.c: 134:         case 4:
+[e :U 314 ]
+"135
+[; ;Pls.c: 135:             LCDStore4[x] = c;
+[e = *U + &U _LCDStore4 * -> _x `ux -> -> # *U &U _LCDStore4 `ui `ux _c ]
+"136
+[; ;Pls.c: 136:             break;
+[e $U 308  ]
+"137
+[; ;Pls.c: 137:         case 5:
+[e :U 315 ]
+"138
+[; ;Pls.c: 138:             LCDStore5[x] = c;
+[e = *U + &U _LCDStore5 * -> _x `ux -> -> # *U &U _LCDStore5 `ui `ux _c ]
+"139
+[; ;Pls.c: 139:             break;
+[e $U 308  ]
+"140
+[; ;Pls.c: 140:         case 6:
+[e :U 316 ]
+"141
+[; ;Pls.c: 141:             LCDStore6[x] = c;
+[e = *U + &U _LCDStore6 * -> _x `ux -> -> # *U &U _LCDStore6 `ui `ux _c ]
+"142
+[; ;Pls.c: 142:             break;
+[e $U 308  ]
+"143
+[; ;Pls.c: 143:         case 7:
+[e :U 317 ]
+"144
+[; ;Pls.c: 144:             LCDStore7[x] = c;
 [e = *U + &U _LCDStore7 * -> _x `ux -> -> # *U &U _LCDStore7 `ui `ux _c ]
-"113
-[; ;Pls.c: 113:           break;
-[e $U 302  ]
-"114
-[; ;Pls.c: 114:     }
+"145
+[; ;Pls.c: 145:             break;
+[e $U 308  ]
+"146
+[; ;Pls.c: 146:     }
 }
-[e $U 302  ]
-[e :U 303 ]
-[e [\ _y , $ -> 0 `i 304
- , $ -> 1 `i 305
- , $ -> 2 `i 306
- , $ -> 3 `i 307
- , $ -> 4 `i 308
- , $ -> 5 `i 309
- , $ -> 6 `i 310
- , $ -> 7 `i 311
- 302 ]
-[e :U 302 ]
-"116
-[; ;Pls.c: 116: }
-[e :UE 301 ]
+[e $U 308  ]
+[e :U 309 ]
+[e [\ _y , $ -> 0 `i 310
+ , $ -> 1 `i 311
+ , $ -> 2 `i 312
+ , $ -> 3 `i 313
+ , $ -> 4 `i 314
+ , $ -> 5 `i 315
+ , $ -> 6 `i 316
+ , $ -> 7 `i 317
+ 308 ]
+[e :U 308 ]
+"148
+[; ;Pls.c: 148: }
+[e :UE 307 ]
 }
-"117
-[; ;Pls.c: 117: void setup() {
+"150
+[; ;Pls.c: 150: void setup() {
 [v _setup `(v ~T0 @X0 1 ef ]
 {
 [e :U _setup ]
 [f ]
-"119
-[; ;Pls.c: 119:     TRISA = 0x0F;
-[e = _TRISA -> -> 15 `i `uc ]
-"122
-[; ;Pls.c: 122:     gameover = 0;
+"153
+[; ;Pls.c: 153:     gameover = 0;
 [e = _gameover -> -> 0 `i `a ]
-"125
-[; ;Pls.c: 125:     snakeHeadXPos = 7;
-[e = _snakeHeadXPos -> -> 7 `i `uc ]
-"126
-[; ;Pls.c: 126:     snakeHeadYPos = 4;
-[e = _snakeHeadYPos -> -> 4 `i `uc ]
-"129
-[; ;Pls.c: 129:     fruitX = random(0,15);
-[e = _fruitX ( _random (2 , -> -> 0 `i `uc -> -> 15 `i `uc ]
-"130
-[; ;Pls.c: 130:     fruitY = random(0,7);
-[e = _fruitY ( _random (2 , -> -> 0 `i `uc -> -> 7 `i `uc ]
-"132
-[; ;Pls.c: 132:     while (fruitX == 0)
-[e $U 313  ]
-[e :U 314 ]
-"133
-[; ;Pls.c: 133:         fruitX = random(0,15);
-[e = _fruitX ( _random (2 , -> -> 0 `i `uc -> -> 15 `i `uc ]
-[e :U 313 ]
-"132
-[; ;Pls.c: 132:     while (fruitX == 0)
-[e $ == -> _fruitX `i -> 0 `i 314  ]
-[e :U 315 ]
-"135
-[; ;Pls.c: 135:     while (fruitY == 0)
-[e $U 316  ]
-[e :U 317 ]
-"136
-[; ;Pls.c: 136:         fruitY = random(0,7);
-[e = _fruitY ( _random (2 , -> -> 0 `i `uc -> -> 7 `i `uc ]
-[e :U 316 ]
-"135
-[; ;Pls.c: 135:     while (fruitY == 0)
-[e $ == -> _fruitY `i -> 0 `i 317  ]
-[e :U 318 ]
-"139
-[; ;Pls.c: 139:     score = 0;
-[e = _score -> -> 0 `i `uc ]
-"140
-[; ;Pls.c: 140:     snakeTailLen = 0;
-[e = _snakeTailLen -> -> 0 `i `uc ]
-"141
-[; ;Pls.c: 141:     key = 0;
-[e = _key -> -> 0 `i `uc ]
-"142
-[; ;Pls.c: 142: }
-[e :UE 312 ]
+"156
+[; ;Pls.c: 156:     snakeHeadXPos = 7;
+[e = _snakeHeadXPos -> -> 7 `i `us ]
+"157
+[; ;Pls.c: 157:     snakeHeadYPos = 4;
+[e = _snakeHeadYPos -> -> 4 `i `us ]
+"160
+[; ;Pls.c: 160:     fruitX = random(0, 15);
+[e = _fruitX -> ( _random (2 , -> -> 0 `i `uc -> -> 15 `i `uc `us ]
+"161
+[; ;Pls.c: 161:     fruitY = random(0, 7);
+[e = _fruitY -> ( _random (2 , -> -> 0 `i `uc -> -> 7 `i `uc `us ]
+"163
+[; ;Pls.c: 163:     while (fruitX == 0)
+[e $U 319  ]
+[e :U 320 ]
+"164
+[; ;Pls.c: 164:         fruitX = random(0, 15);
+[e = _fruitX -> ( _random (2 , -> -> 0 `i `uc -> -> 15 `i `uc `us ]
+[e :U 319 ]
+"163
+[; ;Pls.c: 163:     while (fruitX == 0)
+[e $ == -> _fruitX `ui -> -> 0 `i `ui 320  ]
+[e :U 321 ]
+"166
+[; ;Pls.c: 166:     while (fruitY == 0)
+[e $U 322  ]
+[e :U 323 ]
+"167
+[; ;Pls.c: 167:         fruitY = random(0, 7);
+[e = _fruitY -> ( _random (2 , -> -> 0 `i `uc -> -> 7 `i `uc `us ]
+[e :U 322 ]
+"166
+[; ;Pls.c: 166:     while (fruitY == 0)
+[e $ == -> _fruitY `ui -> -> 0 `i `ui 323  ]
+[e :U 324 ]
+"170
+[; ;Pls.c: 170:     score = 0;
+[e = _score -> -> 0 `i `us ]
+"171
+[; ;Pls.c: 171:     snakeTailLen = 0;
+[e = _snakeTailLen -> -> 0 `i `us ]
+"172
+[; ;Pls.c: 172:     key = 0;
+[e = _key -> -> 0 `i `us ]
+"173
+[; ;Pls.c: 173: }
+[e :UE 318 ]
 }
-"143
-[; ;Pls.c: 143: void clearAllChar(){
+"175
+[; ;Pls.c: 175: void clearAllChar() {
 [v _clearAllChar `(v ~T0 @X0 1 ef ]
 {
 [e :U _clearAllChar ]
 [f ]
-"144
-[; ;Pls.c: 144:     for(unsigned char i = 0; i < 8; i++){
+"176
+[; ;Pls.c: 176:     for (unsigned char i = 0; i < 8; i++) {
 {
 [v _i `uc ~T0 @X0 1 a ]
 [e = _i -> -> 0 `i `uc ]
-[e $ < -> _i `i -> 8 `i 320  ]
-[e $U 321  ]
-[e :U 320 ]
+[e $ < -> _i `i -> 8 `i 326  ]
+[e $U 327  ]
+[e :U 326 ]
 {
-"145
-[; ;Pls.c: 145:          for(unsigned char j = 0; j < 16; j++){
+"177
+[; ;Pls.c: 177:         for (unsigned char j = 0; j < 16; j++) {
 {
 [v _j `uc ~T0 @X0 1 a ]
 [e = _j -> -> 0 `i `uc ]
-[e $ < -> _j `i -> 16 `i 323  ]
-[e $U 324  ]
-[e :U 323 ]
+[e $ < -> _j `i -> 16 `i 329  ]
+[e $U 330  ]
+[e :U 329 ]
 {
-"146
-[; ;Pls.c: 146:              placeChar(j,i,' ');
+"178
+[; ;Pls.c: 178:             placeChar(j, i, ' ');
 [e ( _placeChar (3 , , _j _i -> -> 32 `ui `uc ]
-"147
-[; ;Pls.c: 147:         }
+"179
+[; ;Pls.c: 179:         }
 }
 [e ++ _j -> -> 1 `i `uc ]
-[e $ < -> _j `i -> 16 `i 323  ]
-[e :U 324 ]
+[e $ < -> _j `i -> 16 `i 329  ]
+[e :U 330 ]
 }
-"148
-[; ;Pls.c: 148:     }
+"180
+[; ;Pls.c: 180:     }
 }
 [e ++ _i -> -> 1 `i `uc ]
-[e $ < -> _i `i -> 8 `i 320  ]
-[e :U 321 ]
+[e $ < -> _i `i -> 8 `i 326  ]
+[e :U 327 ]
 }
-"149
-[; ;Pls.c: 149: }
-[e :UE 319 ]
+"181
+[; ;Pls.c: 181: }
+[e :UE 325 ]
 }
-"150
-[; ;Pls.c: 150: void logic() {
+"183
+[; ;Pls.c: 183: void logic() {
 [v _logic `(v ~T0 @X0 1 ef ]
 {
 [e :U _logic ]
 [f ]
-"154
-[; ;Pls.c: 154:     unsigned char prevX = snakeTailX[0];
+"186
+[; ;Pls.c: 186:     unsigned char prevX = snakeTailX[0];
 [v _prevX `uc ~T0 @X0 1 a ]
-[e = _prevX *U + &U _snakeTailX * -> -> -> 0 `i `ui `ux -> -> # *U &U _snakeTailX `ui `ux ]
-"155
-[; ;Pls.c: 155:     unsigned char prevY = snakeTailY[0];
+[e = _prevX -> *U + &U _snakeTailX * -> -> -> 0 `i `ui `ux -> -> # *U &U _snakeTailX `ui `ux `uc ]
+"187
+[; ;Pls.c: 187:     unsigned char prevY = snakeTailY[0];
 [v _prevY `uc ~T0 @X0 1 a ]
-[e = _prevY *U + &U _snakeTailY * -> -> -> 0 `i `ui `ux -> -> # *U &U _snakeTailY `ui `ux ]
-"156
-[; ;Pls.c: 156:     unsigned char prev2X, prev2Y;
+[e = _prevY -> *U + &U _snakeTailY * -> -> -> 0 `i `ui `ux -> -> # *U &U _snakeTailY `ui `ux `uc ]
+"189
+[; ;Pls.c: 189:     unsigned char prev2X, prev2Y;
 [v _prev2X `uc ~T0 @X0 1 a ]
 [v _prev2Y `uc ~T0 @X0 1 a ]
-"157
-[; ;Pls.c: 157:     snakeTailX[0] = snakeHeadXPos;
+"191
+[; ;Pls.c: 191:     snakeTailX[0] = snakeHeadXPos;
 [e = *U + &U _snakeTailX * -> -> -> 0 `i `ui `ux -> -> # *U &U _snakeTailX `ui `ux _snakeHeadXPos ]
-"158
-[; ;Pls.c: 158:     snakeTailY[0] = snakeHeadYPos;
+"192
+[; ;Pls.c: 192:     snakeTailY[0] = snakeHeadYPos;
 [e = *U + &U _snakeTailY * -> -> -> 0 `i `ui `ux -> -> # *U &U _snakeTailY `ui `ux _snakeHeadYPos ]
-"159
-[; ;Pls.c: 159:     for (unsigned char i = 1; i < snakeTailLen; i++) {
+"194
+[; ;Pls.c: 194:     for (unsigned char i = 1; i < snakeTailLen; i++) {
 {
 [v _i `uc ~T0 @X0 1 a ]
 [e = _i -> -> 1 `i `uc ]
-[e $U 330  ]
-[e :U 327 ]
+[e $U 336  ]
+[e :U 333 ]
 {
-"160
-[; ;Pls.c: 160:         prev2X = snakeTailX[i];
-[e = _prev2X *U + &U _snakeTailX * -> _i `ux -> -> # *U &U _snakeTailX `ui `ux ]
-"161
-[; ;Pls.c: 161:         prev2Y = snakeTailY[i];
-[e = _prev2Y *U + &U _snakeTailY * -> _i `ux -> -> # *U &U _snakeTailY `ui `ux ]
-"162
-[; ;Pls.c: 162:         snakeTailX[i] = prevX;
-[e = *U + &U _snakeTailX * -> _i `ux -> -> # *U &U _snakeTailX `ui `ux _prevX ]
-"163
-[; ;Pls.c: 163:         snakeTailY[i] = prevY;
-[e = *U + &U _snakeTailY * -> _i `ux -> -> # *U &U _snakeTailY `ui `ux _prevY ]
-"164
-[; ;Pls.c: 164:         prevX = prev2X;
+"195
+[; ;Pls.c: 195:         prev2X = snakeTailX[i];
+[e = _prev2X -> *U + &U _snakeTailX * -> _i `ux -> -> # *U &U _snakeTailX `ui `ux `uc ]
+"196
+[; ;Pls.c: 196:         prev2Y = snakeTailY[i];
+[e = _prev2Y -> *U + &U _snakeTailY * -> _i `ux -> -> # *U &U _snakeTailY `ui `ux `uc ]
+"198
+[; ;Pls.c: 198:         snakeTailX[i] = prevX;
+[e = *U + &U _snakeTailX * -> _i `ux -> -> # *U &U _snakeTailX `ui `ux -> _prevX `us ]
+"199
+[; ;Pls.c: 199:         snakeTailY[i] = prevY;
+[e = *U + &U _snakeTailY * -> _i `ux -> -> # *U &U _snakeTailY `ui `ux -> _prevY `us ]
+"201
+[; ;Pls.c: 201:         prevX = prev2X;
 [e = _prevX _prev2X ]
-"165
-[; ;Pls.c: 165:         prevY = prev2Y;
+"202
+[; ;Pls.c: 202:         prevY = prev2Y;
 [e = _prevY _prev2Y ]
-"166
-[; ;Pls.c: 166:     }
+"203
+[; ;Pls.c: 203:     }
 }
 [e ++ _i -> -> 1 `i `uc ]
-[e :U 330 ]
-[e $ < -> _i `i -> _snakeTailLen `i 327  ]
-[e :U 328 ]
-}
-"169
-[; ;Pls.c: 169:     switch (key) {
-[e $U 332  ]
-{
-"170
-[; ;Pls.c: 170:     case 1:
-[e :U 333 ]
-"171
-[; ;Pls.c: 171:         snakeHeadXPos--;
-[e -- _snakeHeadXPos -> -> 1 `i `uc ]
-"172
-[; ;Pls.c: 172:         break;
-[e $U 331  ]
-"173
-[; ;Pls.c: 173:     case 2:
-[e :U 334 ]
-"174
-[; ;Pls.c: 174:         snakeHeadXPos++;
-[e ++ _snakeHeadXPos -> -> 1 `i `uc ]
-"175
-[; ;Pls.c: 175:         break;
-[e $U 331  ]
-"176
-[; ;Pls.c: 176:     case 3:
-[e :U 335 ]
-"177
-[; ;Pls.c: 177:         snakeHeadYPos--;
-[e -- _snakeHeadYPos -> -> 1 `i `uc ]
-"178
-[; ;Pls.c: 178:         break;
-[e $U 331  ]
-"179
-[; ;Pls.c: 179:     case 4:
 [e :U 336 ]
-"180
-[; ;Pls.c: 180:         snakeHeadYPos++;
-[e ++ _snakeHeadYPos -> -> 1 `i `uc ]
-"181
-[; ;Pls.c: 181:         break;
-[e $U 331  ]
-"182
-[; ;Pls.c: 182:     default:
-[e :U 337 ]
-"183
-[; ;Pls.c: 183:         break;
-[e $U 331  ]
-"184
-[; ;Pls.c: 184:     }
+[e $ < -> _i `ui -> _snakeTailLen `ui 333  ]
+[e :U 334 ]
 }
-[e $U 331  ]
-[e :U 332 ]
-[e [\ _key , $ -> 1 `i 333
- , $ -> 2 `i 334
- , $ -> 3 `i 335
- , $ -> 4 `i 336
- 337 ]
-[e :U 331 ]
-"187
-[; ;Pls.c: 187:     if (snakeHeadXPos < 0 || snakeHeadXPos >= 16 || snakeHeadYPos < 0 || snakeHeadYPos >= 8)
-[e $ ! || || || < -> _snakeHeadXPos `i -> 0 `i >= -> _snakeHeadXPos `i -> 16 `i < -> _snakeHeadYPos `i -> 0 `i >= -> _snakeHeadYPos `i -> 8 `i 338  ]
-"188
-[; ;Pls.c: 188:         gameover = 1;
-[e = _gameover -> -> 1 `i `a ]
+"206
+[; ;Pls.c: 206:     switch (key) {
+[e $U 338  ]
+{
+"207
+[; ;Pls.c: 207:         case 1:
+[e :U 339 ]
+"208
+[; ;Pls.c: 208:             snakeHeadXPos--;
+[e -- _snakeHeadXPos -> -> 1 `i `us ]
+"209
+[; ;Pls.c: 209:             break;
+[e $U 337  ]
+"210
+[; ;Pls.c: 210:         case 2:
+[e :U 340 ]
+"211
+[; ;Pls.c: 211:             snakeHeadXPos++;
+[e ++ _snakeHeadXPos -> -> 1 `i `us ]
+"212
+[; ;Pls.c: 212:             break;
+[e $U 337  ]
+"213
+[; ;Pls.c: 213:         case 3:
+[e :U 341 ]
+"214
+[; ;Pls.c: 214:             snakeHeadYPos--;
+[e -- _snakeHeadYPos -> -> 1 `i `us ]
+"215
+[; ;Pls.c: 215:             break;
+[e $U 337  ]
+"216
+[; ;Pls.c: 216:         case 4:
+[e :U 342 ]
+"217
+[; ;Pls.c: 217:             snakeHeadYPos++;
+[e ++ _snakeHeadYPos -> -> 1 `i `us ]
+"218
+[; ;Pls.c: 218:             break;
+[e $U 337  ]
+"219
+[; ;Pls.c: 219:         default:
+[e :U 343 ]
+"220
+[; ;Pls.c: 220:             break;
+[e $U 337  ]
+"221
+[; ;Pls.c: 221:     }
+}
+[e $U 337  ]
 [e :U 338 ]
-"191
-[; ;Pls.c: 191:     for (unsigned char i = 0; i < snakeTailLen; i++) {
+[e [\ -> _key `ui , $ -> -> 1 `i `ui 339
+ , $ -> -> 2 `i `ui 340
+ , $ -> -> 3 `i `ui 341
+ , $ -> -> 4 `i `ui 342
+ 343 ]
+[e :U 337 ]
+"224
+[; ;Pls.c: 224:     if (snakeHeadXPos < 0 || snakeHeadXPos >= 16 || snakeHeadYPos < 0 || snakeHeadYPos >= 8)
+[e $ ! || || || < -> _snakeHeadXPos `ui -> -> 0 `i `ui >= -> _snakeHeadXPos `ui -> -> 16 `i `ui < -> _snakeHeadYPos `ui -> -> 0 `i `ui >= -> _snakeHeadYPos `ui -> -> 8 `i `ui 344  ]
+"225
+[; ;Pls.c: 225:         gameover = 1;
+[e = _gameover -> -> 1 `i `a ]
+[e :U 344 ]
+"228
+[; ;Pls.c: 228:     for (unsigned char i = 0; i < snakeTailLen; i++)
 {
 [v _i `uc ~T0 @X0 1 a ]
 [e = _i -> -> 0 `i `uc ]
-[e $U 342  ]
-[e :U 339 ]
-{
-"192
-[; ;Pls.c: 192:         if (snakeTailX[i] == snakeHeadXPos && snakeTailY[i] == snakeHeadYPos)
-[e $ ! && == -> *U + &U _snakeTailX * -> _i `ux -> -> # *U &U _snakeTailX `ui `ux `i -> _snakeHeadXPos `i == -> *U + &U _snakeTailY * -> _i `ux -> -> # *U &U _snakeTailY `ui `ux `i -> _snakeHeadYPos `i 343  ]
-"193
-[; ;Pls.c: 193:             gameover = 1;
-[e = _gameover -> -> 1 `i `a ]
-[e :U 343 ]
-"194
-[; ;Pls.c: 194:     }
-}
-[e ++ _i -> -> 1 `i `uc ]
-[e :U 342 ]
-[e $ < -> _i `i -> _snakeTailLen `i 339  ]
-[e :U 340 ]
-}
-"198
-[; ;Pls.c: 198:     if (snakeHeadXPos == fruitX && snakeHeadYPos == fruitY) {
-[e $ ! && == -> _snakeHeadXPos `i -> _fruitX `i == -> _snakeHeadYPos `i -> _fruitY `i 344  ]
-{
-"199
-[; ;Pls.c: 199:         fruitX = random(0,15);
-[e = _fruitX ( _random (2 , -> -> 0 `i `uc -> -> 15 `i `uc ]
-"200
-[; ;Pls.c: 200:         fruitY = random(0,7);
-[e = _fruitY ( _random (2 , -> -> 0 `i `uc -> -> 7 `i `uc ]
-"201
-[; ;Pls.c: 201:         while (fruitX == 0)
-[e $U 345  ]
-[e :U 346 ]
-"202
-[; ;Pls.c: 202:             fruitX = random(0,15);
-[e = _fruitX ( _random (2 , -> -> 0 `i `uc -> -> 15 `i `uc ]
-[e :U 345 ]
-"201
-[; ;Pls.c: 201:         while (fruitX == 0)
-[e $ == -> _fruitX `i -> 0 `i 346  ]
-[e :U 347 ]
-"205
-[; ;Pls.c: 205:         while (fruitY == 0)
 [e $U 348  ]
+[e :U 345 ]
+"229
+[; ;Pls.c: 229:         if (snakeTailX[i] == snakeHeadXPos && snakeTailY[i] == snakeHeadYPos)
+[e $ ! && == -> *U + &U _snakeTailX * -> _i `ux -> -> # *U &U _snakeTailX `ui `ux `ui -> _snakeHeadXPos `ui == -> *U + &U _snakeTailY * -> _i `ux -> -> # *U &U _snakeTailY `ui `ux `ui -> _snakeHeadYPos `ui 349  ]
+"230
+[; ;Pls.c: 230:             gameover = 1;
+[e = _gameover -> -> 1 `i `a ]
 [e :U 349 ]
-"206
-[; ;Pls.c: 206:             fruitY = random(0,7);
-[e = _fruitY ( _random (2 , -> -> 0 `i `uc -> -> 7 `i `uc ]
+[e ++ _i -> -> 1 `i `uc ]
 [e :U 348 ]
-"205
-[; ;Pls.c: 205:         while (fruitY == 0)
-[e $ == -> _fruitY `i -> 0 `i 349  ]
+[e $ < -> _i `ui -> _snakeTailLen `ui 345  ]
+[e :U 346 ]
+}
+"234
+[; ;Pls.c: 234:     if (snakeHeadXPos == fruitX && snakeHeadYPos == fruitY) {
+[e $ ! && == -> _snakeHeadXPos `ui -> _fruitX `ui == -> _snakeHeadYPos `ui -> _fruitY `ui 350  ]
+{
+"237
+[; ;Pls.c: 237:         fruitX = random(0, 15);
+[e = _fruitX -> ( _random (2 , -> -> 0 `i `uc -> -> 15 `i `uc `us ]
+"238
+[; ;Pls.c: 238:         fruitY = random(0, 7);
+[e = _fruitY -> ( _random (2 , -> -> 0 `i `uc -> -> 7 `i `uc `us ]
+"241
+[; ;Pls.c: 241:         while (fruitX == 0)
+[e $U 351  ]
+[e :U 352 ]
+"242
+[; ;Pls.c: 242:             fruitX = random(0, 15);
+[e = _fruitX -> ( _random (2 , -> -> 0 `i `uc -> -> 15 `i `uc `us ]
+[e :U 351 ]
+"241
+[; ;Pls.c: 241:         while (fruitX == 0)
+[e $ == -> _fruitX `ui -> -> 0 `i `ui 352  ]
+[e :U 353 ]
+"243
+[; ;Pls.c: 243:         while (fruitY == 0)
+[e $U 354  ]
+[e :U 355 ]
+"244
+[; ;Pls.c: 244:             fruitY = random(0, 7);
+[e = _fruitY -> ( _random (2 , -> -> 0 `i `uc -> -> 7 `i `uc `us ]
+[e :U 354 ]
+"243
+[; ;Pls.c: 243:         while (fruitY == 0)
+[e $ == -> _fruitY `ui -> -> 0 `i `ui 355  ]
+[e :U 356 ]
+"246
+[; ;Pls.c: 246:         score += 1;
+[e =+ _score -> -> 1 `i `us ]
+"247
+[; ;Pls.c: 247:         snakeTailLen++;
+[e ++ _snakeTailLen -> -> 1 `i `us ]
+"248
+[; ;Pls.c: 248:     }
+}
 [e :U 350 ]
-"207
-[; ;Pls.c: 207:          score += 1;
-[e =+ _score -> -> 1 `i `uc ]
-"208
-[; ;Pls.c: 208:          snakeTailLen++;
-[e ++ _snakeTailLen -> -> 1 `i `uc ]
-"209
-[; ;Pls.c: 209:     }
+"249
+[; ;Pls.c: 249: }
+[e :UE 332 ]
 }
-[e :U 344 ]
-"210
-[; ;Pls.c: 210: }
-[e :UE 326 ]
-}
-"212
-[; ;Pls.c: 212: void draw() {
+"251
+[; ;Pls.c: 251: void draw() {
 [v _draw `(v ~T0 @X0 1 ef ]
 {
 [e :U _draw ]
 [f ]
-"213
-[; ;Pls.c: 213:     clearAllChar();
+"252
+[; ;Pls.c: 252:     clearAllChar();
 [e ( _clearAllChar ..  ]
-"214
-[; ;Pls.c: 214:     placeChar(snakeHeadXPos,snakeHeadYPos,'O');
-[e ( _placeChar (3 , , _snakeHeadXPos _snakeHeadYPos -> -> 79 `ui `uc ]
-"215
-[; ;Pls.c: 215:     placeChar(fruitX,fruitY,'a');
-[e ( _placeChar (3 , , _fruitX _fruitY -> -> 97 `ui `uc ]
-"218
-[; ;Pls.c: 218:     for (unsigned char i = 0; i < 8; i++) {
+"253
+[; ;Pls.c: 253:     placeChar(snakeHeadXPos, snakeHeadYPos, 'O');
+[e ( _placeChar (3 , , -> _snakeHeadXPos `uc -> _snakeHeadYPos `uc -> -> 79 `ui `uc ]
+"255
+[; ;Pls.c: 255:     for (unsigned char i = 0; i < 8; i++) {
 {
 [v _i `uc ~T0 @X0 1 a ]
 [e = _i -> -> 0 `i `uc ]
-[e $ < -> _i `i -> 8 `i 352  ]
-[e $U 353  ]
-[e :U 352 ]
+[e $ < -> _i `i -> 8 `i 358  ]
+[e $U 359  ]
+[e :U 358 ]
 {
-"219
-[; ;Pls.c: 219:         for (unsigned char j = 0; j <= 16; j++) {
+"256
+[; ;Pls.c: 256:         for (unsigned char j = 0; j <= 16; j++) {
 {
 [v _j `uc ~T0 @X0 1 a ]
 [e = _j -> -> 0 `i `uc ]
-[e $ <= -> _j `i -> 16 `i 355  ]
-[e $U 356  ]
-[e :U 355 ]
+[e $ <= -> _j `i -> 16 `i 361  ]
+[e $U 362  ]
+[e :U 361 ]
 {
-"220
-[; ;Pls.c: 220:                 unsigned char prTail = 0;
+"257
+[; ;Pls.c: 257:             unsigned char prTail = 0;
 [v _prTail `uc ~T0 @X0 1 a ]
 [e = _prTail -> -> 0 `i `uc ]
-"221
-[; ;Pls.c: 221:                 for (unsigned char k = 0; k < snakeTailLen; k++) {
+"258
+[; ;Pls.c: 258:             for (unsigned char k = 0; k < snakeTailLen; k++) {
 {
 [v _k `uc ~T0 @X0 1 a ]
 [e = _k -> -> 0 `i `uc ]
-[e $U 361  ]
-[e :U 358 ]
+[e $U 367  ]
+[e :U 364 ]
 {
-"222
-[; ;Pls.c: 222:                     if (snakeTailX[k] == j && snakeTailY[k] == i) {
-[e $ ! && == -> *U + &U _snakeTailX * -> _k `ux -> -> # *U &U _snakeTailX `ui `ux `i -> _j `i == -> *U + &U _snakeTailY * -> _k `ux -> -> # *U &U _snakeTailY `ui `ux `i -> _i `i 362  ]
+"259
+[; ;Pls.c: 259:                 if (snakeTailX[k] == j && snakeTailY[k] == i) {
+[e $ ! && == -> *U + &U _snakeTailX * -> _k `ux -> -> # *U &U _snakeTailX `ui `ux `ui -> _j `ui == -> *U + &U _snakeTailY * -> _k `ux -> -> # *U &U _snakeTailY `ui `ux `ui -> _i `ui 368  ]
 {
-"223
-[; ;Pls.c: 223:                         placeChar(j,i,'#');
+"260
+[; ;Pls.c: 260:                     placeChar(j, i, '#');
 [e ( _placeChar (3 , , _j _i -> -> 35 `ui `uc ]
-"224
-[; ;Pls.c: 224:                         prTail = 1;
+"261
+[; ;Pls.c: 261:                     prTail = 1;
 [e = _prTail -> -> 1 `i `uc ]
-"225
-[; ;Pls.c: 225:                     }
+"262
+[; ;Pls.c: 262:                 }
 }
-[e :U 362 ]
-"226
-[; ;Pls.c: 226:                 }
+[e :U 368 ]
+"263
+[; ;Pls.c: 263:             }
 }
 [e ++ _k -> -> 1 `i `uc ]
-[e :U 361 ]
-[e $ < -> _k `i -> _snakeTailLen `i 358  ]
-[e :U 359 ]
+[e :U 367 ]
+[e $ < -> _k `ui -> _snakeTailLen `ui 364  ]
+[e :U 365 ]
 }
-"227
-[; ;Pls.c: 227:         }
+"264
+[; ;Pls.c: 264:         }
 }
 [e ++ _j -> -> 1 `i `uc ]
-[e $ <= -> _j `i -> 16 `i 355  ]
-[e :U 356 ]
+[e $ <= -> _j `i -> 16 `i 361  ]
+[e :U 362 ]
 }
-"229
-[; ;Pls.c: 229:     }
+"265
+[; ;Pls.c: 265:     }
 }
 [e ++ _i -> -> 1 `i `uc ]
-[e $ < -> _i `i -> 8 `i 352  ]
-[e :U 353 ]
+[e $ < -> _i `i -> 8 `i 358  ]
+[e :U 359 ]
 }
-"231
-[; ;Pls.c: 231:     drawGraphics();
+"267
+[; ;Pls.c: 267:     placeChar(fruitX, fruitY, 'a');
+[e ( _placeChar (3 , , -> _fruitX `uc -> _fruitY `uc -> -> 97 `ui `uc ]
+"269
+[; ;Pls.c: 269:     drawGraphics();
 [e ( _drawGraphics ..  ]
-"232
-[; ;Pls.c: 232: }
-[e :UE 351 ]
+"270
+[; ;Pls.c: 270: }
+[e :UE 357 ]
 }
 [v $root$_main `(v ~T0 @X0 0 e ]
-"234
-[; ;Pls.c: 234: void main(void) {
+"272
+[; ;Pls.c: 272: void main(void) {
 [v _main `(v ~T0 @X0 1 ef ]
 {
 [e :U _main ]
 [f ]
-"235
-[; ;Pls.c: 235:     ADCON1 = 0x0F;
-[e = _ADCON1 -> -> 15 `i `uc ]
-"236
-[; ;Pls.c: 236:     OSCCON = 0x70;
+"273
+[; ;Pls.c: 273:     OSCCON = 0x70;
 [e = _OSCCON -> -> 112 `i `uc ]
-"238
-[; ;Pls.c: 238:     LCD_Init();
-[e ( _LCD_Init ..  ]
-"239
-[; ;Pls.c: 239:     LCD_EnableGraphics();
-[e ( _LCD_EnableGraphics ..  ]
-"240
-[; ;Pls.c: 240:     LCD_ClearGraphics();
-[e ( _LCD_ClearGraphics ..  ]
-"242
-[; ;Pls.c: 242:     LCD_GraphicsDisplayString(0,"*****SNAKE******");
-[e ( _LCD_GraphicsDisplayString (2 , -> -> 0 `i `uc :s 7C ]
-"244
-[; ;Pls.c: 244:     LCD_GraphicsDisplayString(2,"BY:  SEBASTIAN  ");
-[e ( _LCD_GraphicsDisplayString (2 , -> -> 2 `i `uc :s 8C ]
-"245
-[; ;Pls.c: 245:     LCD_GraphicsDisplayString(3,"     ANU        ");
-[e ( _LCD_GraphicsDisplayString (2 , -> -> 3 `i `uc :s 9C ]
-"246
-[; ;Pls.c: 246:     LCD_GraphicsDisplayString(5,"Start - Select  ");
-[e ( _LCD_GraphicsDisplayString (2 , -> -> 5 `i `uc :s 10C ]
-"248
-[; ;Pls.c: 248: showSpeed:
-[e :U 364 ]
-"249
-[; ;Pls.c: 249:     displaySpeed();
-[e ( _displaySpeed ..  ]
-"251
-[; ;Pls.c: 251:     while(!PORTAbits.RA5){
-[e $U 365  ]
-[e :U 366 ]
-{
-"252
-[; ;Pls.c: 252:         if(PORTAbits.RA0 && speed < 5){
-[e $ ! && != -> . . _PORTAbits 0 0 `i -> 0 `i < -> _speed `i -> 5 `i 368  ]
-{
-"253
-[; ;Pls.c: 253:             speed++;
-[e ++ _speed -> -> 1 `i `uc ]
-"254
-[; ;Pls.c: 254:             while(PORTAbits.RA0);
-[e $U 369  ]
-[e :U 370 ]
-[e :U 369 ]
-[e $ != -> . . _PORTAbits 0 0 `i -> 0 `i 370  ]
-[e :U 371 ]
-"255
-[; ;Pls.c: 255:             goto showSpeed;
-[e $U 364  ]
-"256
-[; ;Pls.c: 256:         } else if(PORTAbits.RA1 && speed > 0){
-}
-[e $U 372  ]
-[e :U 368 ]
-[e $ ! && != -> . . _PORTAbits 0 1 `i -> 0 `i > -> _speed `i -> 0 `i 373  ]
-{
-"257
-[; ;Pls.c: 257:             speed--;
-[e -- _speed -> -> 1 `i `uc ]
-"258
-[; ;Pls.c: 258:             while(PORTAbits.RA1);
-[e $U 374  ]
-[e :U 375 ]
-[e :U 374 ]
-[e $ != -> . . _PORTAbits 0 1 `i -> 0 `i 375  ]
-[e :U 376 ]
-"259
-[; ;Pls.c: 259:             goto showSpeed;
-[e $U 364  ]
-"260
-[; ;Pls.c: 260:         }
-}
-[e :U 373 ]
-[e :U 372 ]
-"261
-[; ;Pls.c: 261:     }
-}
-[e :U 365 ]
-"251
-[; ;Pls.c: 251:     while(!PORTAbits.RA5){
-[e $ ! != -> . . _PORTAbits 0 5 `i -> 0 `i 366  ]
-[e :U 367 ]
-"266
-[; ;Pls.c: 266: startGame:
-[e :U 377 ]
-"267
-[; ;Pls.c: 267:     setup();
-[e ( _setup ..  ]
-"269
-[; ;Pls.c: 269:     while(!gameover){
-[e $U 378  ]
-[e :U 379 ]
-{
-"270
-[; ;Pls.c: 270:            draw();
-[e ( _draw ..  ]
-"271
-[; ;Pls.c: 271:            input();
-[e ( _input ..  ]
-"272
-[; ;Pls.c: 272:            logic();
-[e ( _logic ..  ]
 "274
-[; ;Pls.c: 274:            switch (speed){
-[e $U 382  ]
-{
-"275
-[; ;Pls.c: 275:                case 0:
-[e :U 383 ]
+[; ;Pls.c: 274:     TRISA = 0xFF;
+[e = _TRISA -> -> 255 `i `uc ]
 "276
-[; ;Pls.c: 276:                 _delay((unsigned long)((0)*(8000000/4000.0)));
-[e ( __delay (1 -> * -> -> 0 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
-"277
-[; ;Pls.c: 277:                 break;
-[e $U 381  ]
+[; ;Pls.c: 276:     createRandomSeed();
+[e ( _createRandomSeed ..  ]
 "278
-[; ;Pls.c: 278:                 case 1:
-[e :U 384 ]
+[; ;Pls.c: 278:     LCD_Init();
+[e ( _LCD_Init ..  ]
 "279
-[; ;Pls.c: 279:                 _delay((unsigned long)((100)*(8000000/4000.0)));
-[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+[; ;Pls.c: 279:     LCD_EnableGraphics();
+[e ( _LCD_EnableGraphics ..  ]
 "280
-[; ;Pls.c: 280:                 break;
-[e $U 381  ]
-"281
-[; ;Pls.c: 281:                 case 2:
-[e :U 385 ]
-"282
-[; ;Pls.c: 282:                 _delay((unsigned long)((200)*(8000000/4000.0)));
-[e ( __delay (1 -> * -> -> 200 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
-"283
-[; ;Pls.c: 283:                 break;
-[e $U 381  ]
-"284
-[; ;Pls.c: 284:                 case 3:
-[e :U 386 ]
-"285
-[; ;Pls.c: 285:                 _delay((unsigned long)((300)*(8000000/4000.0)));
-[e ( __delay (1 -> * -> -> 300 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
-"286
-[; ;Pls.c: 286:                 break;
-[e $U 381  ]
-"287
-[; ;Pls.c: 287:                 case 4:
-[e :U 387 ]
-"288
-[; ;Pls.c: 288:                 _delay((unsigned long)((400)*(8000000/4000.0)));
-[e ( __delay (1 -> * -> -> 400 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
-"289
-[; ;Pls.c: 289:                 break;
-[e $U 381  ]
-"290
-[; ;Pls.c: 290:                 case 5:
-[e :U 388 ]
-"291
-[; ;Pls.c: 291:                 _delay((unsigned long)((500)*(8000000/4000.0)));
-[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
-"292
-[; ;Pls.c: 292:                 break;
-[e $U 381  ]
-"293
-[; ;Pls.c: 293:            }
-}
-[e $U 381  ]
-[e :U 382 ]
-[e [\ _speed , $ -> 0 `i 383
- , $ -> 1 `i 384
- , $ -> 2 `i 385
- , $ -> 3 `i 386
- , $ -> 4 `i 387
- , $ -> 5 `i 388
- 381 ]
-[e :U 381 ]
-"294
-[; ;Pls.c: 294:      }
-}
-[e :U 378 ]
-"269
-[; ;Pls.c: 269:     while(!gameover){
-[e $ ! != -> _gameover `i -> 0 `i 379  ]
-[e :U 380 ]
-"295
-[; ;Pls.c: 295:     LCD_ClearGraphics();
+[; ;Pls.c: 280:     LCD_ClearGraphics();
 [e ( _LCD_ClearGraphics ..  ]
+"282
+[; ;Pls.c: 282:     LCD_GraphicsDisplayString(0, "*****SNAKE******");
+[e ( _LCD_GraphicsDisplayString (2 , -> -> 0 `i `uc :s 6C ]
+"284
+[; ;Pls.c: 284:     LCD_GraphicsDisplayString(2, "BY:  SEBASTIAN  ");
+[e ( _LCD_GraphicsDisplayString (2 , -> -> 2 `i `uc :s 7C ]
+"285
+[; ;Pls.c: 285:     LCD_GraphicsDisplayString(3, "     ANU        ");
+[e ( _LCD_GraphicsDisplayString (2 , -> -> 3 `i `uc :s 8C ]
+"286
+[; ;Pls.c: 286:     LCD_GraphicsDisplayString(5, "Start - Select  ");
+[e ( _LCD_GraphicsDisplayString (2 , -> -> 5 `i `uc :s 9C ]
+"288
+[; ;Pls.c: 288: showSpeed:
+[e :U 370 ]
+"289
+[; ;Pls.c: 289:     displaySpeed();
+[e ( _displaySpeed ..  ]
+"291
+[; ;Pls.c: 291:     while (!PORTAbits.RA6) {
+[e $U 371  ]
+[e :U 372 ]
+{
+"292
+[; ;Pls.c: 292:         if (PORTAbits.RA2 && speed < 5) {
+[e $ ! && != -> . . _PORTAbits 0 2 `i -> 0 `i < -> _speed `i -> 5 `i 374  ]
+{
+"293
+[; ;Pls.c: 293:             speed++;
+[e ++ _speed -> -> 1 `i `uc ]
+"294
+[; ;Pls.c: 294:             while (PORTAbits.RA2);
+[e $U 375  ]
+[e :U 376 ]
+[e :U 375 ]
+[e $ != -> . . _PORTAbits 0 2 `i -> 0 `i 376  ]
+[e :U 377 ]
+"295
+[; ;Pls.c: 295:             goto showSpeed;
+[e $U 370  ]
 "296
-[; ;Pls.c: 296:     LCD_GraphicsDisplayString(1,"***************");
-[e ( _LCD_GraphicsDisplayString (2 , -> -> 1 `i `uc :s 11C ]
+[; ;Pls.c: 296:         } else if (PORTAbits.RA1 && speed > 0) {
+}
+[e $U 378  ]
+[e :U 374 ]
+[e $ ! && != -> . . _PORTAbits 0 1 `i -> 0 `i > -> _speed `i -> 0 `i 379  ]
+{
 "297
-[; ;Pls.c: 297:     LCD_GraphicsDisplayString(2,"    GAME OVER   ");
-[e ( _LCD_GraphicsDisplayString (2 , -> -> 2 `i `uc :s 12C ]
+[; ;Pls.c: 297:             speed--;
+[e -- _speed -> -> 1 `i `uc ]
 "298
-[; ;Pls.c: 298:     LCD_GraphicsDisplayString(3,"***************");
-[e ( _LCD_GraphicsDisplayString (2 , -> -> 3 `i `uc :s 13C ]
+[; ;Pls.c: 298:             while (PORTAbits.RA1);
+[e $U 380  ]
+[e :U 381 ]
+[e :U 380 ]
+[e $ != -> . . _PORTAbits 0 1 `i -> 0 `i 381  ]
+[e :U 382 ]
 "299
-[; ;Pls.c: 299:     LCD_GraphicsDisplayString(5,"Retry - Select");
-[e ( _LCD_GraphicsDisplayString (2 , -> -> 5 `i `uc :s 14C ]
+[; ;Pls.c: 299:             goto showSpeed;
+[e $U 370  ]
 "300
-[; ;Pls.c: 300:     LCD_GraphicsDisplayString(6,"Menu - Exit");
-[e ( _LCD_GraphicsDisplayString (2 , -> -> 6 `i `uc :s 15C ]
-"302
-[; ;Pls.c: 302:     while(!PORTAbits.RA4){
-[e $U 389  ]
-[e :U 390 ]
-{
-"303
-[; ;Pls.c: 303:        if(PORTAbits.RA5){
-[e $ ! != -> . . _PORTAbits 0 5 `i -> 0 `i 392  ]
-{
-"304
-[; ;Pls.c: 304:            goto startGame;
-[e $U 377  ]
-"305
-[; ;Pls.c: 305:        }
+[; ;Pls.c: 300:         }
 }
-[e :U 392 ]
+[e :U 379 ]
+[e :U 378 ]
+"301
+[; ;Pls.c: 301:     }
+}
+[e :U 371 ]
+"291
+[; ;Pls.c: 291:     while (!PORTAbits.RA6) {
+[e $ ! != -> . . _PORTAbits 0 6 `i -> 0 `i 372  ]
+[e :U 373 ]
 "306
-[; ;Pls.c: 306:     }
-}
-[e :U 389 ]
-"302
-[; ;Pls.c: 302:     while(!PORTAbits.RA4){
-[e $ ! != -> . . _PORTAbits 0 4 `i -> 0 `i 390  ]
-[e :U 391 ]
-"308
-[; ;Pls.c: 308:     return;
-[e $UE 363  ]
+[; ;Pls.c: 306: startGame:
+[e :U 383 ]
+"307
+[; ;Pls.c: 307:     setup();
+[e ( _setup ..  ]
 "309
-[; ;Pls.c: 309: }
-[e :UE 363 ]
+[; ;Pls.c: 309:     while (!gameover) {
+[e $U 384  ]
+[e :U 385 ]
+{
+"310
+[; ;Pls.c: 310:         draw();
+[e ( _draw ..  ]
+"311
+[; ;Pls.c: 311:         input();
+[e ( _input ..  ]
+"312
+[; ;Pls.c: 312:         logic();
+[e ( _logic ..  ]
+"314
+[; ;Pls.c: 314:         switch (speed) {
+[e $U 388  ]
+{
+"315
+[; ;Pls.c: 315:             case 0:
+[e :U 389 ]
+"316
+[; ;Pls.c: 316:                 _delay((unsigned long)((0)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 0 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"317
+[; ;Pls.c: 317:                 break;
+[e $U 387  ]
+"318
+[; ;Pls.c: 318:             case 1:
+[e :U 390 ]
+"319
+[; ;Pls.c: 319:                 _delay((unsigned long)((100)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"320
+[; ;Pls.c: 320:                 break;
+[e $U 387  ]
+"321
+[; ;Pls.c: 321:             case 2:
+[e :U 391 ]
+"322
+[; ;Pls.c: 322:                 _delay((unsigned long)((200)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 200 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"323
+[; ;Pls.c: 323:                 break;
+[e $U 387  ]
+"324
+[; ;Pls.c: 324:             case 3:
+[e :U 392 ]
+"325
+[; ;Pls.c: 325:                 _delay((unsigned long)((300)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 300 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"326
+[; ;Pls.c: 326:                 break;
+[e $U 387  ]
+"327
+[; ;Pls.c: 327:             case 4:
+[e :U 393 ]
+"328
+[; ;Pls.c: 328:                 _delay((unsigned long)((400)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 400 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"329
+[; ;Pls.c: 329:                 break;
+[e $U 387  ]
+"330
+[; ;Pls.c: 330:             case 5:
+[e :U 394 ]
+"331
+[; ;Pls.c: 331:                 _delay((unsigned long)((500)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"332
+[; ;Pls.c: 332:                 break;
+[e $U 387  ]
+"333
+[; ;Pls.c: 333:         }
 }
-[a 15C 77 101 110 117 32 45 32 69 120 105 116 0 ]
-[a 14C 82 101 116 114 121 32 45 32 83 101 108 101 99 116 0 ]
-[a 6C 83 112 101 101 100 58 32 53 0 ]
-[a 5C 83 112 101 101 100 58 32 52 0 ]
-[a 4C 83 112 101 101 100 58 32 51 0 ]
-[a 3C 83 112 101 101 100 58 32 50 0 ]
-[a 2C 83 112 101 101 100 58 32 49 0 ]
-[a 1C 83 112 101 101 100 58 32 48 0 ]
-[a 7C 42 42 42 42 42 83 78 65 75 69 42 42 42 42 42 42 0 ]
-[a 11C 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 0 ]
-[a 13C 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 0 ]
-[a 10C 83 116 97 114 116 32 45 32 83 101 108 101 99 116 32 32 0 ]
-[a 8C 66 89 58 32 32 83 69 66 65 83 84 73 65 78 32 32 0 ]
-[a 12C 32 32 32 32 71 65 77 69 32 79 86 69 82 32 32 32 0 ]
-[a 9C 32 32 32 32 32 65 78 85 32 32 32 32 32 32 32 32 0 ]
+[e $U 387  ]
+[e :U 388 ]
+[e [\ _speed , $ -> 0 `i 389
+ , $ -> 1 `i 390
+ , $ -> 2 `i 391
+ , $ -> 3 `i 392
+ , $ -> 4 `i 393
+ , $ -> 5 `i 394
+ 387 ]
+[e :U 387 ]
+"334
+[; ;Pls.c: 334:     }
+}
+[e :U 384 ]
+"309
+[; ;Pls.c: 309:     while (!gameover) {
+[e $ ! != -> _gameover `i -> 0 `i 385  ]
+[e :U 386 ]
+"336
+[; ;Pls.c: 336:     LCD_ClearGraphics();
+[e ( _LCD_ClearGraphics ..  ]
+"337
+[; ;Pls.c: 337:     LCD_GraphicsDisplayString(1, "****************");
+[e ( _LCD_GraphicsDisplayString (2 , -> -> 1 `i `uc :s 10C ]
+"338
+[; ;Pls.c: 338:     LCD_GraphicsDisplayString(2, "    GAME OVER   ");
+[e ( _LCD_GraphicsDisplayString (2 , -> -> 2 `i `uc :s 11C ]
+"339
+[; ;Pls.c: 339:     LCD_GraphicsDisplayString(3, "****************");
+[e ( _LCD_GraphicsDisplayString (2 , -> -> 3 `i `uc :s 12C ]
+"340
+[; ;Pls.c: 340:     LCD_GraphicsDisplayString(5, "Retry - Select");
+[e ( _LCD_GraphicsDisplayString (2 , -> -> 5 `i `uc :s 13C ]
+"341
+[; ;Pls.c: 341:     LCD_GraphicsDisplayString(6, "Menu - Exit");
+[e ( _LCD_GraphicsDisplayString (2 , -> -> 6 `i `uc :s 14C ]
+"343
+[; ;Pls.c: 343:     while (!PORTAbits.RA5) {
+[e $U 395  ]
+[e :U 396 ]
+{
+"344
+[; ;Pls.c: 344:         if (PORTAbits.RA6) {
+[e $ ! != -> . . _PORTAbits 0 6 `i -> 0 `i 398  ]
+{
+"345
+[; ;Pls.c: 345:             goto startGame;
+[e $U 383  ]
+"346
+[; ;Pls.c: 346:         }
+}
+[e :U 398 ]
+"347
+[; ;Pls.c: 347:     }
+}
+[e :U 395 ]
+"343
+[; ;Pls.c: 343:     while (!PORTAbits.RA5) {
+[e $ ! != -> . . _PORTAbits 0 5 `i -> 0 `i 396  ]
+[e :U 397 ]
+"349
+[; ;Pls.c: 349:     return;
+[e $UE 369  ]
+"350
+[; ;Pls.c: 350: }
+[e :UE 369 ]
+}
+[a 14C 77 101 110 117 32 45 32 69 120 105 116 0 ]
+[a 13C 82 101 116 114 121 32 45 32 83 101 108 101 99 116 0 ]
+[a 5C 83 112 101 101 100 58 32 53 0 ]
+[a 4C 83 112 101 101 100 58 32 52 0 ]
+[a 3C 83 112 101 101 100 58 32 51 0 ]
+[a 2C 83 112 101 101 100 58 32 50 0 ]
+[a 1C 83 112 101 101 100 58 32 49 0 ]
+[a 6C 42 42 42 42 42 83 78 65 75 69 42 42 42 42 42 42 0 ]
+[a 10C 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 0 ]
+[a 12C 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 0 ]
+[a 9C 83 116 97 114 116 32 45 32 83 101 108 101 99 116 32 32 0 ]
+[a 7C 66 89 58 32 32 83 69 66 65 83 84 73 65 78 32 32 0 ]
+[a 11C 32 32 32 32 71 65 77 69 32 79 86 69 82 32 32 32 0 ]
+[a 8C 32 32 32 32 32 65 78 85 32 32 32 32 32 32 32 32 0 ]

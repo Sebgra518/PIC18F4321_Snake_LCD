@@ -3,7 +3,7 @@
 [d edition pro ]
 [d chip 18F4321 ]
 [d frameptr 4065 ]
-"8 C:\Users\Sebastian\Desktop\12864LCD\Pls.X\12864_lcd.c
+"8 E:\Github\PIC18F4321_Snake_LCD\Pls.X\12864_lcd.c
 [v _LCD_Init LCD_Init `(v  1 e 1 0 ]
 "55
 [v _LCD_EnableGraphics LCD_EnableGraphics `(v  1 e 1 0 ]
@@ -31,7 +31,9 @@
 [v ___ftmul __ftmul `(f  1 e 4 0 ]
 "19 E:\Microchip\xc8\v2.50\pic\sources\c99\common\ftsub.c
 [v ___ftsub __ftsub `(f  1 e 4 0 ]
-"11 E:\Microchip\xc8\v2.50\pic\sources\c99\common\rand.c
+"6 E:\Microchip\xc8\v2.50\pic\sources\c99\common\rand.c
+[v _srand srand `(v  1 e 1 0 ]
+"11
 [v _rand rand `(i  1 e 2 0 ]
 "10 E:\Microchip\xc8\v2.50\pic\sources\c99\common\sprcadd.c
 [v ___fladd __fladd `(d  1 e 4 0 ]
@@ -45,31 +47,33 @@
 [v ___lmul __lmul `(ul  1 e 4 0 ]
 "91 E:\Microchip\xc8\v2.50\pic\sources\c99\common\Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
-"40 C:\Users\Sebastian\Desktop\12864LCD\Pls.X\Pls.c
+"42 E:\Github\PIC18F4321_Snake_LCD\Pls.X\Pls.c
+[v _createRandomSeed createRandomSeed `(us  1 e 2 0 ]
+"72
 [v _displaySpeed displaySpeed `(v  1 e 1 0 ]
-"63
+"92
 [v _drawGraphics drawGraphics `(v  1 e 1 0 ]
-"73
+"103
 [v _random random `(uc  1 e 1 0 ]
-"76
+"107
 [v _input input `(v  1 e 1 0 ]
-"88
+"120
 [v _placeChar placeChar `(v  1 e 1 0 ]
-"117
-[v _setup setup `(v  1 e 1 0 ]
-"143
-[v _clearAllChar clearAllChar `(v  1 e 1 0 ]
 "150
+[v _setup setup `(v  1 e 1 0 ]
+"175
+[v _clearAllChar clearAllChar `(v  1 e 1 0 ]
+"183
 [v _logic logic `(v  1 e 1 0 ]
-"212
+"251
 [v _draw draw `(v  1 e 1 0 ]
-"234
+"272
 [v _main main `(v  1 e 1 0 ]
-"1 C:\Users\Sebastian\Desktop\12864LCD\Pls.X/font.h
+"1 E:\Github\PIC18F4321_Snake_LCD\Pls.X/font.h
 [v _Alpha1 Alpha1 `C[250]uc  1 s 250 Alpha1 ]
 "53
 [v _Alpha2 Alpha2 `C[230]uc  1 s 230 Alpha2 ]
-[s S135 . 1 `uc 1 RA0 1 0 :1:0 
+[s S217 . 1 `uc 1 RA0 1 0 :1:0 
 `uc 1 RA1 1 0 :1:1 
 `uc 1 RA2 1 0 :1:2 
 `uc 1 RA3 1 0 :1:3 
@@ -79,7 +83,7 @@
 `uc 1 RA7 1 0 :1:7 
 ]
 "114 E:/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4321.h
-[s S144 . 1 `uc 1 AN0 1 0 :1:0 
+[s S226 . 1 `uc 1 AN0 1 0 :1:0 
 `uc 1 AN1 1 0 :1:1 
 `uc 1 AN2 1 0 :1:2 
 `uc 1 AN3 1 0 :1:3 
@@ -88,7 +92,7 @@
 `uc 1 OSC2 1 0 :1:6 
 `uc 1 OSC1 1 0 :1:7 
 ]
-[s S153 . 1 `uc 1 C1N 1 0 :1:0 
+[s S235 . 1 `uc 1 C1N 1 0 :1:0 
 `uc 1 C2N 1 0 :1:1 
 `uc 1 C2P 1 0 :1:2 
 `uc 1 C1P 1 0 :1:3 
@@ -97,29 +101,29 @@
 `uc 1 CLKO 1 0 :1:6 
 `uc 1 CLKI 1 0 :1:7 
 ]
-[s S162 . 1 `uc 1 . 1 0 :2:0 
+[s S244 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 VREFM 1 0 :1:2 
 `uc 1 VREFP 1 0 :1:3 
 `uc 1 . 1 0 :1:4 
 `uc 1 HLVDIN 1 0 :1:5 
 ]
-[s S168 . 1 `uc 1 . 1 0 :5:0 
+[s S250 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 NOT_SS 1 0 :1:5 
 ]
-[s S171 . 1 `uc 1 . 1 0 :2:0 
+[s S253 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 CVREF 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
 `uc 1 T0CKI 1 0 :1:4 
 `uc 1 nSS 1 0 :1:5 
 ]
-[s S177 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+[s S259 . 1 `uc 1 ULPWUIN 1 0 :1:0 
 `uc 1 . 1 0 :4:1 
 `uc 1 LVDIN 1 0 :1:5 
 `uc 1 . 1 0 :1:6 
 `uc 1 RJPU 1 0 :1:7 
 ]
-[u S183 . 1 `S135 1 . 1 0 `S144 1 . 1 0 `S153 1 . 1 0 `S162 1 . 1 0 `S168 1 . 1 0 `S171 1 . 1 0 `S177 1 . 1 0 ]
-[v _PORTAbits PORTAbits `VES183  1 e 1 @3968 ]
+[u S265 . 1 `S217 1 . 1 0 `S226 1 . 1 0 `S235 1 . 1 0 `S244 1 . 1 0 `S250 1 . 1 0 `S253 1 . 1 0 `S259 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES265  1 e 1 @3968 ]
 [s S25 . 1 `uc 1 LATB0 1 0 :1:0 
 `uc 1 LATB1 1 0 :1:1 
 `uc 1 LATB2 1 0 :1:2 
@@ -145,13 +149,57 @@
 [v _TRISA TRISA `VEuc  1 e 1 @3986 ]
 "1710
 [v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"4645
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
 "4716
 [v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"4801
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+[s S133 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"4845
+[s S136 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S140 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S147 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S150 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S153 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S156 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[s S159 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S162 . 1 `S133 1 . 1 0 `S136 1 . 1 0 `S140 1 . 1 0 `S147 1 . 1 0 `S150 1 . 1 0 `S153 1 . 1 0 `S156 1 . 1 0 `S159 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES162  1 e 1 @4034 ]
+"4927
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"4934
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
 "6100
 [v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"6267
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"6274
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
 "4 E:\Microchip\xc8\v2.50\pic\sources\c99\common\rand.c
 [v _seed seed `ul  1 s 4 seed ]
-"15 C:\Users\Sebastian\Desktop\12864LCD\Pls.X\Pls.c
+"15 E:\Github\PIC18F4321_Snake_LCD\Pls.X\Pls.c
 [v _LCDStore0 LCDStore0 `[17]uc  1 e 17 0 ]
 "16
 [v _LCDStore1 LCDStore1 `[17]uc  1 e 17 0 ]
@@ -168,58 +216,58 @@
 "22
 [v _LCDStore7 LCDStore7 `[17]uc  1 e 17 0 ]
 "24
-[v _snakeHeadXPos snakeHeadXPos `uc  1 e 1 0 ]
-[v _snakeHeadYPos snakeHeadYPos `uc  1 e 1 0 ]
+[v _snakeHeadXPos snakeHeadXPos `us  1 e 2 0 ]
+[v _snakeHeadYPos snakeHeadYPos `us  1 e 2 0 ]
 "25
-[v _snakeTailX snakeTailX `[32]uc  1 e 32 0 ]
-[v _snakeTailY snakeTailY `[32]uc  1 e 32 0 ]
+[v _snakeTailX snakeTailX `[17]us  1 e 34 0 ]
+[v _snakeTailY snakeTailY `[8]us  1 e 16 0 ]
 "26
-[v _snakeTailLen snakeTailLen `uc  1 e 1 0 ]
+[v _snakeTailLen snakeTailLen `us  1 e 2 0 ]
 "28
-[v _fruitX fruitX `uc  1 e 1 0 ]
+[v _fruitX fruitX `us  1 e 2 0 ]
 "29
-[v _fruitY fruitY `uc  1 e 1 0 ]
+[v _fruitY fruitY `us  1 e 2 0 ]
 "31
-[v _score score `uc  1 e 1 0 ]
-[v _key key `uc  1 e 1 0 ]
+[v _score score `us  1 e 2 0 ]
+[v _key key `us  1 e 2 0 ]
 "33
 [v _speed speed `uc  1 e 1 0 ]
 "38
 [v _gameover gameover `a  1 e 1 0 ]
-"234
+"272
 [v _main main `(v  1 e 1 0 ]
 {
-"309
-} 0
-"117
-[v _setup setup `(v  1 e 1 0 ]
-{
-"142
+"350
 } 0
 "150
+[v _setup setup `(v  1 e 1 0 ]
+{
+"173
+} 0
+"183
 [v _logic logic `(v  1 e 1 0 ]
 {
-"191
-[v logic@i_307 i `uc  1 a 1 33 ]
-"159
-[v logic@i i `uc  1 a 1 34 ]
-"155
-[v logic@prevY prevY `uc  1 a 1 32 ]
-"154
-[v logic@prevX prevX `uc  1 a 1 31 ]
-"156
-[v logic@prev2Y prev2Y `uc  1 a 1 30 ]
-[v logic@prev2X prev2X `uc  1 a 1 29 ]
-"210
+"228
+[v logic@i_395 i `uc  1 a 1 34 ]
+"194
+[v logic@i i `uc  1 a 1 35 ]
+"187
+[v logic@prevY prevY `uc  1 a 1 33 ]
+"186
+[v logic@prevX prevX `uc  1 a 1 32 ]
+"189
+[v logic@prev2Y prev2Y `uc  1 a 1 31 ]
+[v logic@prev2X prev2X `uc  1 a 1 30 ]
+"249
 } 0
-"73
+"103
 [v _random random `(uc  1 e 1 0 ]
 {
 [v random@lower_bound lower_bound `uc  1 p 1 wreg ]
 [v random@lower_bound lower_bound `uc  1 p 1 wreg ]
 [v random@upper_bound upper_bound `uc  1 p 1 24 ]
 [v random@lower_bound lower_bound `uc  1 p 1 27 ]
-"75
+"105
 } 0
 "11 E:\Microchip\xc8\v2.50\pic\sources\c99\common\rand.c
 [v _rand rand `(i  1 e 2 0 ]
@@ -247,37 +295,37 @@
 [v ___awmod@divisor divisor `i  1 p 2 20 ]
 "34
 } 0
-"76 C:\Users\Sebastian\Desktop\12864LCD\Pls.X\Pls.c
+"107 E:\Github\PIC18F4321_Snake_LCD\Pls.X\Pls.c
 [v _input input `(v  1 e 1 0 ]
 {
-"87
+"118
 } 0
-"212
+"251
 [v _draw draw `(v  1 e 1 0 ]
 {
-"221
-[v draw@k k `uc  1 a 1 35 ]
-"219
-[v draw@j j `uc  1 a 1 37 ]
-"218
-[v draw@i i `uc  1 a 1 36 ]
-"232
+"258
+[v draw@k k `uc  1 a 1 38 ]
+"256
+[v draw@j j `uc  1 a 1 40 ]
+"255
+[v draw@i i `uc  1 a 1 39 ]
+"270
 } 0
-"63
+"92
 [v _drawGraphics drawGraphics `(v  1 e 1 0 ]
 {
-"72
+"101
 } 0
-"143
+"175
 [v _clearAllChar clearAllChar `(v  1 e 1 0 ]
 {
-"145
+"177
 [v clearAllChar@j j `uc  1 a 1 4 ]
-"144
+"176
 [v clearAllChar@i i `uc  1 a 1 3 ]
-"149
+"181
 } 0
-"88
+"120
 [v _placeChar placeChar `(v  1 e 1 0 ]
 {
 [v placeChar@x x `uc  1 p 1 wreg ]
@@ -285,14 +333,14 @@
 [v placeChar@y y `uc  1 p 1 0 ]
 [v placeChar@c c `uc  1 p 1 1 ]
 [v placeChar@x x `uc  1 p 1 2 ]
-"116
+"148
 } 0
-"40
+"72
 [v _displaySpeed displaySpeed `(v  1 e 1 0 ]
 {
-"61
+"90
 } 0
-"100 C:\Users\Sebastian\Desktop\12864LCD\Pls.X\12864_lcd.c
+"100 E:\Github\PIC18F4321_Snake_LCD\Pls.X\12864_lcd.c
 [v _LCD_GraphicsDisplayString LCD_GraphicsDisplayString `(v  1 e 1 0 ]
 {
 [v LCD_GraphicsDisplayString@line line `uc  1 p 1 wreg ]
@@ -327,7 +375,24 @@
 [v LCD_GraphicsDisplayString@line line `uc  1 p 1 27 ]
 "200
 } 0
-"8
+"42 E:\Github\PIC18F4321_Snake_LCD\Pls.X\Pls.c
+[v _createRandomSeed createRandomSeed `(us  1 e 2 0 ]
+{
+"57
+[v createRandomSeed@i i `i  1 a 2 12 ]
+"51
+[v createRandomSeed@timer_value timer_value `us  1 a 2 10 ]
+"50
+[v createRandomSeed@adc_value adc_value `us  1 a 2 8 ]
+"70
+} 0
+"6 E:\Microchip\xc8\v2.50\pic\sources\c99\common\rand.c
+[v _srand srand `(v  1 e 1 0 ]
+{
+[v srand@s s `ui  1 p 2 0 ]
+"9
+} 0
+"8 E:\Github\PIC18F4321_Snake_LCD\Pls.X\12864_lcd.c
 [v _LCD_Init LCD_Init `(v  1 e 1 0 ]
 {
 "35
